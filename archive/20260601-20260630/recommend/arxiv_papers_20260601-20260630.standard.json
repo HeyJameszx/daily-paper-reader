@@ -1,6 +1,6 @@
 {
   "mode": "standard",
-  "generated_at": "2026-06-30T08:03:21.521437+00:00",
+  "generated_at": "2026-06-30T08:12:53.102005+00:00",
   "stats": {
     "mode": "standard",
     "tag_count": 1,
@@ -14,34 +14,32 @@
   "deep_dive": [],
   "quick_skim": [
     {
-      "id": "2606.10836v1",
+      "id": "2606.04292v1",
       "source": "arxiv",
-      "title": "Bounding the Null Space: Interval-Based Uncertainty Quantification for Non-Identifiable Groundwater Models",
-      "abstract": "Groundwater models are routinely non-identifiable: sparse subsurface observations leave many combinations of parameters, states, and boundary conditions equally consistent with the available data. Existing uncertainty quantification (UQ) methods address this by exploring a finite set of model realizations, but incomplete exploration can systematically underestimate the true range of admissible solutions. We propose a fundamentally different approach based on Optimization-based Bound Tightening (OBBT), which represents uncertainty directly as intervals and tightens them by extremizing variables over a constraint system encoding physical laws and observations. This yields guaranteed outer bounds on all uncertain variables without sampling, side-stepping the exploration problem entirely. To apply OBBT to groundwater flow, we discretize Darcy's law using a finite-volume scheme and handle the resulting bilinear terms through McCormick relaxations. We show that these relaxations can break the sign coupling between fluxes and head gradients, permitting non-physical rotational flow and failing to provide sufficient information for effective bound tightening. We identify flow sign prescription and irrotationality constraints as effective remedies and characterize their respective strengths and limitations. We demonstrate the framework on three numerical examples - a 1D steady-state model, a 2D steady-state model across four experimental configurations, and a 2D transient model on a hexagonal grid - and discuss computational performance, scalability, and directions for future research. OBBT offers a conservative, deterministic, and physically grounded alternative to ensemble-based UQ, with natural connections to null space theory and data assimilation.",
+      "title": "An Efficient Solver for the Richards Equation for Variably Saturated Flows in Porous Media",
+      "abstract": "We present a nonlinear multigrid solver for the Richards equation in variably saturated porous media with strongly nonlinear hydraulic conductivity and water-retention relationships. The governing equation is discretized using a second-order conservative finite-difference scheme in space and an implicit backward differentiation formula in time. The core component of the solver is a nonlinear Gauss--Seidel (NGS) smoother based on a triangular splitting of the diffusion operator combined with diagonal stabilization. This construction yields a sequence of locally decoupled scalar nonlinear problems that can be solved efficiently and robustly using only a few Newton iterations. Under suitable monotonicity assumptions, we establish the convergence of the NGS iteration in the $L^\\infty$ norm and derive explicit conditions on the stabilization parameters. Numerical experiments for benchmark infiltration, drainage, and root-uptake problems demonstrate that the proposed NGS-based multigrid framework is both computationally efficient and robust.",
       "authors": [
-        "Maximilian Ramgraber",
-        "Ksenia Bestuzheva"
+        "Xuelong Gu",
+        "Qi Wang"
       ],
-      "primary_category": "physics.comp-ph",
+      "primary_category": "math.NA",
       "categories": [
-        "physics.comp-ph",
-        "math.OC",
-        "physics.geo-ph"
+        "math.NA"
       ],
-      "published": "2026-06-09T13:25:01+00:00",
-      "link": "https://arxiv.org/pdf/2606.10836v1",
+      "published": "2026-06-02T23:44:51+00:00",
+      "link": "https://arxiv.org/pdf/2606.04292v1",
       "tags": [
         "keyword:coast-iso",
         "query:coast-iso"
       ],
       "llm_score": 7.0,
-      "llm_evidence_en": "interval-based uncertainty quantification for non-identifiable groundwater models",
-      "llm_evidence_cn": "基于区间的不确定性量化方法用于非唯一性地下水模型",
-      "llm_evidence": "基于区间的不确定性量化方法用于非唯一性地下水模型",
-      "canonical_evidence": "基于区间的不确定性量化方法用于非唯一性地下水模型",
-      "llm_tldr_en": "Proposes an interval-based uncertainty quantification approach for non-identifiable groundwater models, yielding guaranteed outer bounds by extremizing variables over a constraint system encoding physics and observations.",
-      "llm_tldr_cn": "针对地下水模型普遍存在的非唯一性问题，提出一种基于优化界限紧缩的区间不确定性量化方法，将不确定性表示为区间并在物理定律与观测约束下极值化变量以紧缩界限，最终获得所有不确定变量的保证外限，从而避免传统有限实现探索可能导致的系统性低估，为数据匮乏条件下地下水模拟的可靠不确定性传播提供了新工具。",
-      "llm_tldr": "针对地下水模型普遍存在的非唯一性问题，提出一种基于优化界限紧缩的区间不确定性量化方法，将不确定性表示为区间并在物理定律与观测约束下极值化变量以紧缩界限，最终获得所有不确定变量的保证外限，从而避免传统有限实现探索可能导致的系统性低估，为数据匮乏条件下地下水模拟的可靠不确定性传播提供了新工具。",
+      "llm_evidence_en": "Numerical solver for variably saturated groundwater flow, applicable to coastal aquifer simulation methods.",
+      "llm_evidence_cn": "变饱和地下水流数值求解器，可应用于海岸带含水层模拟方法。",
+      "llm_evidence": "变饱和地下水流数值求解器，可应用于海岸带含水层模拟方法。",
+      "canonical_evidence": "变饱和地下水流数值求解器，可应用于海岸带含水层模拟方法。",
+      "llm_tldr_en": "This paper presents an efficient nonlinear multigrid solver for the Richards equation in variably saturated porous media, enabling robust simulation of groundwater flow with strong nonlinearities.",
+      "llm_tldr_cn": "针对变饱和多孔介质中Richards方程求解效率低的问题，提出了一种非线性多重网格求解器。该方法采用非线性高斯-赛德尔光滑器，将扩散算子三角分裂与对角稳定化结合，生成局部解耦的标量非线性问题，仅需少量牛顿迭代即可高效求解。结果表明，该求解器对强非线性水力传导和持水关系具有稳健性，为地下水流动模拟提供了高效数值工具，可进一步推广至海岸带含水层变密度流模拟。",
+      "llm_tldr": "针对变饱和多孔介质中Richards方程求解效率低的问题，提出了一种非线性多重网格求解器。该方法采用非线性高斯-赛德尔光滑器，将扩散算子三角分裂与对角稳定化结合，生成局部解耦的标量非线性问题，仅需少量牛顿迭代即可高效求解。结果表明，该求解器对强非线性水力传导和持水关系具有稳健性，为地下水流动模拟提供了高效数值工具，可进一步推广至海岸带含水层变密度流模拟。",
       "llm_tags": [
         "query:coastal-gw:composite"
       ],

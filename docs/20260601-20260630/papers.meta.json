@@ -1,21 +1,21 @@
 {
   "label": "2026-06-01 ~ 2026-06-30",
   "date": "2026-06-01 ~ 2026-06-30",
-  "generated_at": "2026-06-30T08:04:38",
+  "generated_at": "2026-06-30T08:13:20",
   "count": 1,
   "papers": [
     {
-      "paper_id": "20260601-20260630/2606.10836v1-bounding-the-null-space-interval-based-uncertainty-quantification-for-non-identifiable-groundwater-models",
+      "paper_id": "20260601-20260630/2606.04292v1-an-efficient-solver-for-the-richards-equation-for-variably-saturated-flows-in-porous-media",
       "section": "quick",
-      "title_en": "Bounding the Null Space: Interval-Based Uncertainty Quantification for Non-Identifiable Groundwater Models",
-      "authors": "Maximilian Ramgraber, Ksenia Bestuzheva",
-      "date": "2026-06-09",
-      "pdf": "https://arxiv.org/pdf/2606.10836v1",
-      "score": "8.0",
-      "evidence": "针对非可识别地下水模型的区间不确定性量化方法",
-      "tldr": "地下水模型观测稀疏导致非唯一性，传统采样因探索有限易低估解的范围。本文提出优化约束收紧(OBBT)方法，将参数直接表示为区间，通过极值求解物理约束系统获得严格外边界，无需采样。针对达西流双线性项，McCormick松弛引入非物理流，使用流动符号规定与无旋约束可有效收紧区间。在稳态及瞬态案例中验证，OBBT提供保守确定性的UQ框架，与零空间理论耦合。",
+      "title_en": "An Efficient Solver for the Richards Equation for Variably Saturated Flows in Porous Media",
+      "authors": "Xuelong Gu, Qi Wang",
+      "date": "2026-06-02",
+      "pdf": "https://arxiv.org/pdf/2606.04292v1",
+      "score": "9.0",
+      "evidence": "用于地下水流动模拟的Richards方程非线性多重网格求解器",
+      "tldr": "多孔介质变饱和水流的Richards方程因高度非线性水力特性，传统求解方法常面临收敛困难。本文提出一种基于非线性Gauss-Seidel光滑器的多重网格求解器，利用扩散算子三角分裂与对角稳定化将耦合问题解耦为局部标量非线性系统，每步仅需少量牛顿迭代。理论证明了NGS迭代的L∞收敛性并给出稳定化参数条件。基准入渗、排水和根系吸水算例证实方法高效鲁棒，为变饱和流模拟提供了有力工具。",
       "tags": "query:coastal-gw",
-      "abstract_en": "Groundwater models are routinely non-identifiable: sparse subsurface observations leave many combinations of parameters, states, and boundary conditions equally consistent with the available data. Existing uncertainty quantification (UQ) methods address this by exploring a finite set of model realizations, but incomplete exploration can systematically underestimate the true range of admissible solutions. We propose a fundamentally different approach based on Optimization-based Bound Tightening (OBBT), which represents uncertainty directly as intervals and tightens them by extremizing variables over a constraint system encoding physical laws and observations. This yields guaranteed outer bounds on all uncertain variables without sampling, side-stepping the exploration problem entirely. To apply OBBT to groundwater flow, we discretize Darcy's law using a finite-volume scheme and handle the resulting bilinear terms through McCormick relaxations. We show that these relaxations can break the sign coupling between fluxes and head gradients, permitting non-physical rotational flow and failing to provide sufficient information for effective bound tightening. We identify flow sign prescription and irrotationality constraints as effective remedies and characterize their respective strengths and limitations. We demonstrate the framework on three numerical examples - a 1D steady-state model, a 2D steady-state model across four experimental configurations, and a 2D transient model on a hexagonal grid - and discuss computational performance, scalability, and directions for future research. OBBT offers a conservative, deterministic, and physically grounded alternative to ensemble-based UQ, with natural connections to null space theory and data assimilation.",
+      "abstract_en": "We present a nonlinear multigrid solver for the Richards equation in variably saturated porous media with strongly nonlinear hydraulic conductivity and water-retention relationships. The governing equation is discretized using a second-order conservative finite-difference scheme in space and an implicit backward differentiation formula in time. The core component of the solver is a nonlinear Gauss--Seidel (NGS) smoother based on a triangular splitting of the diffusion operator combined with diagonal stabilization. This construction yields a sequence of locally decoupled scalar nonlinear problems that can be solved efficiently and robustly using only a few Newton iterations. Under suitable monotonicity assumptions, we establish the convergence of the NGS iteration in the $L^\\infty$ norm and derive explicit conditions on the stabilization parameters. Numerical experiments for benchmark infiltration, drainage, and root-uptake problems demonstrate that the proposed NGS-based multigrid framework is both computationally efficient and robust.",
       "source": "arxiv",
       "selection_source": "fresh_fetch"
     }
