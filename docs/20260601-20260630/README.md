@@ -1,21 +1,20 @@
 # 日报 · 2026-06-01 ~ 2026-06-30
 
-- 生成时间：2026-06-30 06:27:21 UTC
-- 当次推荐总数：2
+- 生成时间：2026-06-30 08:04:27 UTC
+- 当次推荐总数：1
 - 精读区：0
-- 速读区：2
+- 速读区：1
 
 ## 今日简报（AI）
-速读两篇高水平水文建模论文：一篇用区间方法量化不可识别模型的零空间不确定性，另一篇对比潜扩散模型与集成卡尔曼、蒙特卡洛方法的数据同化效果。  
-关注方向：地下水模型非唯一性下的鲁棒不确定性刻画，以及生成式模型如何提升地下流数据同化效率。  
-建议读者若从事环境建模，可重点关注潜扩散参数化与传统方法在实时数据同化中的性价比差异。
+今日精读1篇水文模型不确定性量化论文，聚焦非可识别地下水模型中的区间不确定性传播方法。  
+核心结论：用区间分析替代概率分布，可有效界定“零空间”内的预测范围，尤其适合数据匮乏场景。  
+想理解复杂模型的安全边界？从这篇文章的区间思想入手，比传统贝叶斯方法更易落地。
 
 ## 精读区
 - 本次无精读推荐。
 
 ## 速读区
-1. [Bounding the Null Space: Interval-Based Uncertainty Quantification for Non-Identifiable Groundwater Models](/20260601-20260630/2606.10836v1-bounding-the-null-space-interval-based-uncertainty-quantification-for-non-identifiable-groundwater-models) （8.0/10）
-2. [Data assimilation for subsurface flow using latent diffusion model parameterization: performance of ensemble-Kalman and Monte Carlo techniques](/20260601-20260630/2606.11140v1-data-assimilation-for-subsurface-flow-using-latent-diffusion-model-parameterization-performance-of-ensemble-kalman-and-monte-carlo-techniques) （8.0/10）
+1. [Bounding the Null Space: Interval-Based Uncertainty Quantification for Non-Identifiable Groundwater Models](/20260601-20260630/2606.10836v1-bounding-the-null-space-interval-based-uncertainty-quantification-for-non-identifiable-groundwater-models) （7.0/10）
 
 ---
 使用键盘方向键可在日报/论文之间快速切换。
