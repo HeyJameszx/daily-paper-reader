@@ -1,94 +1,16 @@
 {
   "mode": "standard",
-  "generated_at": "2026-06-30T08:33:15.077090+00:00",
+  "generated_at": "2026-06-30T08:42:56.648684+00:00",
   "stats": {
     "mode": "standard",
     "tag_count": 1,
     "deep_divecandidates": 0,
     "deep_cap": 6,
     "deep_selected": 0,
-    "quick_candidates": 2,
+    "quick_candidates": 0,
     "quick_skim_target": 11,
-    "quick_selected": 2
+    "quick_selected": 0
   },
   "deep_dive": [],
-  "quick_skim": [
-    {
-      "id": "2606.04292v1",
-      "source": "arxiv",
-      "title": "An Efficient Solver for the Richards Equation for Variably Saturated Flows in Porous Media",
-      "abstract": "We present a nonlinear multigrid solver for the Richards equation in variably saturated porous media with strongly nonlinear hydraulic conductivity and water-retention relationships. The governing equation is discretized using a second-order conservative finite-difference scheme in space and an implicit backward differentiation formula in time. The core component of the solver is a nonlinear Gauss--Seidel (NGS) smoother based on a triangular splitting of the diffusion operator combined with diagonal stabilization. This construction yields a sequence of locally decoupled scalar nonlinear problems that can be solved efficiently and robustly using only a few Newton iterations. Under suitable monotonicity assumptions, we establish the convergence of the NGS iteration in the $L^\\infty$ norm and derive explicit conditions on the stabilization parameters. Numerical experiments for benchmark infiltration, drainage, and root-uptake problems demonstrate that the proposed NGS-based multigrid framework is both computationally efficient and robust.",
-      "authors": [
-        "Xuelong Gu",
-        "Qi Wang"
-      ],
-      "primary_category": "math.NA",
-      "categories": [
-        "math.NA"
-      ],
-      "published": "2026-06-02T23:44:51+00:00",
-      "link": "https://arxiv.org/pdf/2606.04292v1",
-      "tags": [
-        "keyword:coast-iso",
-        "query:coast-iso"
-      ],
-      "llm_score": 7.0,
-      "llm_evidence_en": "Proposes a nonlinear multigrid solver for the Richards equation, essential for variably saturated groundwater flow simulations.",
-      "llm_evidence_cn": "提出Richards方程的非线性多重网格求解器，对变饱和地下水流模拟至关重要",
-      "llm_evidence": "提出Richards方程的非线性多重网格求解器，对变饱和地下水流模拟至关重要",
-      "canonical_evidence": "提出Richards方程的非线性多重网格求解器，对变饱和地下水流模拟至关重要",
-      "llm_tldr_en": "Develops a nonlinear multigrid solver with a novel smoother for the Richards equation, enabling efficient simulation of variably saturated flow in porous media.",
-      "llm_tldr_cn": "针对多孔介质中强非线性变饱和流问题，提出一种基于非线性Gauss-Seidel光滑器的多重网格求解器，通过三角分裂与对角稳定化将耦合问题解耦为局部标量非线性问题，仅需少量牛顿迭代，数值实验验证了求解器的高效性和鲁棒性，为地下水数值模拟提供了重要工具。",
-      "llm_tldr": "针对多孔介质中强非线性变饱和流问题，提出一种基于非线性Gauss-Seidel光滑器的多重网格求解器，通过三角分裂与对角稳定化将耦合问题解耦为局部标量非线性问题，仅需少量牛顿迭代，数值实验验证了求解器的高效性和鲁棒性，为地下水数值模拟提供了重要工具。",
-      "llm_tags": [
-        "query:coastal-gw:composite"
-      ],
-      "matched_query_tag": "query:coastal-gw:composite",
-      "matched_query_text": "Papers central to 海岸带地下水及数值模拟相关研究, especially work that connects or combines: coastal aquifer hydrogeology and water resources; seawater intrusion monitoring and management; porewater flow and chemical exchange across sediment-water interfaces; Numerical simulation methods for groundwater flow and transport; variable-density flow and solute transport simulation; characterization of coastal aquifers using geophysical methods; Recent developments in submarine groundwater discharge research and quantification methods; Assessing saltwater intrusion vulnerability under sea level rise scenarios; Mapping offshore fresh groundwater reserves and their resource potential; What are the best practices for modeling saltwater intrusion with density dependent flow?.",
-      "matched_requirement_id": "req-composite-coastal-gw",
-      "selection_source": "fresh_fetch",
-      "quick_tier": "7"
-    },
-    {
-      "id": "2606.11140v1",
-      "source": "arxiv",
-      "title": "Data assimilation for subsurface flow using latent diffusion model parameterization: performance of ensemble-Kalman and Monte Carlo techniques",
-      "abstract": "Data assimilation (DA) in subsurface flow entails calibrating model parameters to match observed data, typically at wells, while preserving geological realism. Latent diffusion models (LDMs) provide efficient mappings from high-dimensional geological model space to a low-dimensional latent variable, reducing the dimensionality of the inverse problem while maintaining plausibility in posterior geomodels. However, the high nonlinearity in the LDM mapping may degrade the performance of Kalman-gain-based ensemble updates. We present a systematic comparison of DA algorithms applied to large-scale 3D channelized geomodels with hierarchical geological uncertainty. We compare model-space and latent-space DA using the ensemble smoother with multiple data assimilation (ESMDA), and demonstrate a key trade-off: model-space updates achieve significant uncertainty reduction but produce geologically unrealistic posterior models, while latent-space updates preserve realism but exhibit limited uncertainty reduction. Motivated by this, we explore rigorous Markov chain Monte Carlo (MCMC) and Sequential Monte Carlo (SMC) algorithms in the 3D-LDM latent space. To accommodate their high computational demands, we develop a fast surrogate flow model that approximates well-rate responses. MCMC and SMC are evaluated against ESMDA across three synthetic test cases, with DA performed in the LDM latent space. All models maintain geological realism due to the LDM parameterization. MCMC and SMC are consistent with one another and achieve lower data mismatch and more uncertainty reduction than latent-space ESMDA. Our overall results demonstrate that ensemble Kalman methods may provide overestimated posterior uncertainty with highly nonlinear parameterizations, while rigorous Monte Carlo sampling, enabled by fast surrogate models, can provide a more reliable alternative.",
-      "authors": [
-        "Guido Di Federico",
-        "Wenchao Teng",
-        "Louis J. Durlofsky"
-      ],
-      "primary_category": "physics.geo-ph",
-      "categories": [
-        "physics.geo-ph",
-        "cs.AI",
-        "cs.LG",
-        "stat.AP",
-        "stat.ML"
-      ],
-      "published": "2026-06-09T17:29:47+00:00",
-      "link": "https://arxiv.org/pdf/2606.11140v1",
-      "tags": [
-        "keyword:coast-iso",
-        "query:coast-iso"
-      ],
-      "llm_score": 6.0,
-      "llm_evidence_en": "Data assimilation methods for subsurface flow modeling applicable to coastal aquifer simulation.",
-      "llm_evidence_cn": "地下水流模拟的数据同化方法可应用于海岸带含水层模拟",
-      "llm_evidence": "地下水流模拟的数据同化方法可应用于海岸带含水层模拟",
-      "canonical_evidence": "地下水流模拟的数据同化方法可应用于海岸带含水层模拟",
-      "llm_tldr_en": "This study uses latent diffusion models for dimensionality reduction in subsurface flow inversion, and systematically compares ensemble-Kalman and Monte Carlo data assimilation on 3D channelized models, showing efficient inversion while preserving geological realism.",
-      "llm_tldr_cn": "本研究针对地下水流模型参数反演中高维地质空间计算挑战，提出一种基于潜在扩散模型的降维参数化方法，并通过集合卡尔曼和蒙特卡洛技术进行数据同化。在三维河道化地质模型上系统比较了不同算法性能，评估了非线性映射对同化效果的影响。结果表明该方法能在保持地质真实性的前提下提高反演效率，为复杂地下水流系统的模型校准提供了新思路。",
-      "llm_tldr": "本研究针对地下水流模型参数反演中高维地质空间计算挑战，提出一种基于潜在扩散模型的降维参数化方法，并通过集合卡尔曼和蒙特卡洛技术进行数据同化。在三维河道化地质模型上系统比较了不同算法性能，评估了非线性映射对同化效果的影响。结果表明该方法能在保持地质真实性的前提下提高反演效率，为复杂地下水流系统的模型校准提供了新思路。",
-      "llm_tags": [
-        "query:coastal-gw:composite"
-      ],
-      "matched_query_tag": "query:coastal-gw:composite",
-      "matched_query_text": "Papers central to 海岸带地下水及数值模拟相关研究, especially work that connects or combines: coastal aquifer hydrogeology and water resources; seawater intrusion monitoring and management; porewater flow and chemical exchange across sediment-water interfaces; Numerical simulation methods for groundwater flow and transport; variable-density flow and solute transport simulation; characterization of coastal aquifers using geophysical methods; Recent developments in submarine groundwater discharge research and quantification methods; Assessing saltwater intrusion vulnerability under sea level rise scenarios; Mapping offshore fresh groundwater reserves and their resource potential; What are the best practices for modeling saltwater intrusion with density dependent flow?.",
-      "matched_requirement_id": "req-composite-coastal-gw",
-      "selection_source": "fresh_fetch",
-      "quick_tier": "6"
-    }
-  ]
+  "quick_skim": []
 }

@@ -1,39 +1,8 @@
 {
   "label": "2026-06-01 ~ 2026-06-30",
   "date": "2026-06-01 ~ 2026-06-30",
-  "generated_at": "2026-06-30T08:34:12",
-  "count": 2,
-  "papers": [
-    {
-      "paper_id": "20260601-20260630/2606.04292v1-an-efficient-solver-for-the-richards-equation-for-variably-saturated-flows-in-porous-media",
-      "section": "quick",
-      "title_en": "An Efficient Solver for the Richards Equation for Variably Saturated Flows in Porous Media",
-      "authors": "Xuelong Gu, Qi Wang",
-      "date": "2026-06-02",
-      "pdf": "https://arxiv.org/pdf/2606.04292v1",
-      "score": "9.0",
-      "evidence": "用于地下水流动模拟的Richards方程非线性多重网格求解器",
-      "tldr": "多孔介质变饱和水流的Richards方程因高度非线性水力特性，传统求解方法常面临收敛困难。本文提出一种基于非线性Gauss-Seidel光滑器的多重网格求解器，利用扩散算子三角分裂与对角稳定化将耦合问题解耦为局部标量非线性系统，每步仅需少量牛顿迭代。理论证明了NGS迭代的L∞收敛性并给出稳定化参数条件。基准入渗、排水和根系吸水算例证实方法高效鲁棒，为变饱和流模拟提供了有力工具。",
-      "tags": "query:coastal-gw",
-      "abstract_en": "We present a nonlinear multigrid solver for the Richards equation in variably saturated porous media with strongly nonlinear hydraulic conductivity and water-retention relationships. The governing equation is discretized using a second-order conservative finite-difference scheme in space and an implicit backward differentiation formula in time. The core component of the solver is a nonlinear Gauss--Seidel (NGS) smoother based on a triangular splitting of the diffusion operator combined with diagonal stabilization. This construction yields a sequence of locally decoupled scalar nonlinear problems that can be solved efficiently and robustly using only a few Newton iterations. Under suitable monotonicity assumptions, we establish the convergence of the NGS iteration in the $L^\\infty$ norm and derive explicit conditions on the stabilization parameters. Numerical experiments for benchmark infiltration, drainage, and root-uptake problems demonstrate that the proposed NGS-based multigrid framework is both computationally efficient and robust.",
-      "source": "arxiv",
-      "selection_source": "fresh_fetch"
-    },
-    {
-      "paper_id": "20260601-20260630/2606.11140v1-data-assimilation-for-subsurface-flow-using-latent-diffusion-model-parameterization-performance-of-ensemble-kalman-and-monte-carlo-techniques",
-      "section": "quick",
-      "title_en": "Data assimilation for subsurface flow using latent diffusion model parameterization: performance of ensemble-Kalman and Monte Carlo techniques",
-      "authors": "Guido Di Federico, Wenchao Teng, Louis J. Durlofsky",
-      "date": "2026-06-09",
-      "pdf": "https://arxiv.org/pdf/2606.11140v1",
-      "score": "8.0",
-      "evidence": "利用潜在扩散模型进行地下水流数据同化，直接支持数值地下水模拟方法。",
-      "tldr": "针对地下流数据同化中需兼顾地质真实性与不确定性量化的难题，本研究使用潜扩散模型（LDM）降维，系统对比了集合平滑器（ESMDA）与蒙特卡洛方法。发现模型空间ESMDA虽降不确定性却失真，潜空间ESMDA保持真实但降不确定性有限；进而引入MCMC和SMC，并结合快速代理模型加速计算，在3D潜空间中实现了更低的数据失配与更充分的不确定性降低，证明了严格采样方法优于集合卡尔曼，为非线性参数化下的可靠数据同化提供了新路径。",
-      "tags": "query:coastal-gw",
-      "abstract_en": "Data assimilation (DA) in subsurface flow entails calibrating model parameters to match observed data, typically at wells, while preserving geological realism. Latent diffusion models (LDMs) provide efficient mappings from high-dimensional geological model space to a low-dimensional latent variable, reducing the dimensionality of the inverse problem while maintaining plausibility in posterior geomodels. However, the high nonlinearity in the LDM mapping may degrade the performance of Kalman-gain-based ensemble updates. We present a systematic comparison of DA algorithms applied to large-scale 3D channelized geomodels with hierarchical geological uncertainty. We compare model-space and latent-space DA using the ensemble smoother with multiple data assimilation (ESMDA), and demonstrate a key trade-off: model-space updates achieve significant uncertainty reduction but produce geologically unrealistic posterior models, while latent-space updates preserve realism but exhibit limited uncertainty reduction. Motivated by this, we explore rigorous Markov chain Monte Carlo (MCMC) and Sequential Monte Carlo (SMC) algorithms in the 3D-LDM latent space. To accommodate their high computational demands, we develop a fast surrogate flow model that approximates well-rate responses. MCMC and SMC are evaluated against ESMDA across three synthetic test cases, with DA performed in the LDM latent space. All models maintain geological realism due to the LDM parameterization. MCMC and SMC are consistent with one another and achieve lower data mismatch and more uncertainty reduction than latent-space ESMDA. Our overall results demonstrate that ensemble Kalman methods may provide overestimated posterior uncertainty with highly nonlinear parameterizations, while rigorous Monte Carlo sampling, enabled by fast surrogate models, can provide a more reliable alternative.",
-      "source": "arxiv",
-      "selection_source": "fresh_fetch"
-    }
-  ],
+  "generated_at": "2026-06-30T08:42:56",
+  "count": 0,
+  "papers": [],
   "errors": []
 }
