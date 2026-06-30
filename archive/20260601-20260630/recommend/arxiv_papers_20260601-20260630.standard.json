@@ -1,0 +1,131 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-06-30T05:52:16.307518+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 2,
+    "quick_skim_target": 11,
+    "quick_selected": 2
+  },
+  "deep_dive": [
+    {
+      "id": "2606.10836v1",
+      "source": "arxiv",
+      "title": "Bounding the Null Space: Interval-Based Uncertainty Quantification for Non-Identifiable Groundwater Models",
+      "abstract": "Groundwater models are routinely non-identifiable: sparse subsurface observations leave many combinations of parameters, states, and boundary conditions equally consistent with the available data. Existing uncertainty quantification (UQ) methods address this by exploring a finite set of model realizations, but incomplete exploration can systematically underestimate the true range of admissible solutions. We propose a fundamentally different approach based on Optimization-based Bound Tightening (OBBT), which represents uncertainty directly as intervals and tightens them by extremizing variables over a constraint system encoding physical laws and observations. This yields guaranteed outer bounds on all uncertain variables without sampling, side-stepping the exploration problem entirely. To apply OBBT to groundwater flow, we discretize Darcy's law using a finite-volume scheme and handle the resulting bilinear terms through McCormick relaxations. We show that these relaxations can break the sign coupling between fluxes and head gradients, permitting non-physical rotational flow and failing to provide sufficient information for effective bound tightening. We identify flow sign prescription and irrotationality constraints as effective remedies and characterize their respective strengths and limitations. We demonstrate the framework on three numerical examples - a 1D steady-state model, a 2D steady-state model across four experimental configurations, and a 2D transient model on a hexagonal grid - and discuss computational performance, scalability, and directions for future research. OBBT offers a conservative, deterministic, and physically grounded alternative to ensemble-based UQ, with natural connections to null space theory and data assimilation.",
+      "authors": [
+        "Maximilian Ramgraber",
+        "Ksenia Bestuzheva"
+      ],
+      "primary_category": "physics.comp-ph",
+      "categories": [
+        "physics.comp-ph",
+        "math.OC",
+        "physics.geo-ph"
+      ],
+      "published": "2026-06-09T13:25:01+00:00",
+      "link": "https://arxiv.org/pdf/2606.10836v1",
+      "tags": [
+        "keyword:coast-iso",
+        "query:coast-iso"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "New UQ method for non-identifiable groundwater models directly supports numerical simulation of coastal aquifers",
+      "llm_evidence_cn": "针对不可识别地下水模型的新不确定性量化方法直接支持沿海含水层数值模拟",
+      "llm_evidence": "针对不可识别地下水模型的新不确定性量化方法直接支持沿海含水层数值模拟",
+      "canonical_evidence": "针对不可识别地下水模型的新不确定性量化方法直接支持沿海含水层数值模拟",
+      "llm_tldr_en": "This paper proposes an interval-based uncertainty quantification method using optimization-based bound tightening to guarantee outer bounds on groundwater model predictions, overcoming limitations of incomplete exploration.",
+      "llm_tldr_cn": "地下水模型常因观测稀少而不可识别，现有不确定性量化方法可能低估解的范围。本文提出基于优化界限收紧的区间不确定性量化方法，通过约束系统极值化变量，获得对所有不确定变量的保证外边界。该方法为地下水模型提供了严格的不确定性度量，有助于提高沿海含水层模拟的可靠性。",
+      "llm_tldr": "地下水模型常因观测稀少而不可识别，现有不确定性量化方法可能低估解的范围。本文提出基于优化界限收紧的区间不确定性量化方法，通过约束系统极值化变量，获得对所有不确定变量的保证外边界。该方法为地下水模型提供了严格的不确定性度量，有助于提高沿海含水层模拟的可靠性。",
+      "llm_tags": [
+        "query:coastal-gw:composite"
+      ],
+      "matched_query_tag": "query:coastal-gw:composite",
+      "matched_query_text": "Papers central to 海岸带地下水及数值模拟相关研究, especially work that connects or combines: coastal aquifer hydrogeology and water resources; seawater intrusion monitoring and management; porewater flow and chemical exchange across sediment-water interfaces; Numerical simulation methods for groundwater flow and transport; variable-density flow and solute transport simulation; characterization of coastal aquifers using geophysical methods; Recent developments in submarine groundwater discharge research and quantification methods; Assessing saltwater intrusion vulnerability under sea level rise scenarios; Mapping offshore fresh groundwater reserves and their resource potential; What are the best practices for modeling saltwater intrusion with density dependent flow?.",
+      "matched_requirement_id": "req-composite-coastal-gw",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2606.04292v1",
+      "source": "arxiv",
+      "title": "An Efficient Solver for the Richards Equation for Variably Saturated Flows in Porous Media",
+      "abstract": "We present a nonlinear multigrid solver for the Richards equation in variably saturated porous media with strongly nonlinear hydraulic conductivity and water-retention relationships. The governing equation is discretized using a second-order conservative finite-difference scheme in space and an implicit backward differentiation formula in time. The core component of the solver is a nonlinear Gauss--Seidel (NGS) smoother based on a triangular splitting of the diffusion operator combined with diagonal stabilization. This construction yields a sequence of locally decoupled scalar nonlinear problems that can be solved efficiently and robustly using only a few Newton iterations. Under suitable monotonicity assumptions, we establish the convergence of the NGS iteration in the $L^\\infty$ norm and derive explicit conditions on the stabilization parameters. Numerical experiments for benchmark infiltration, drainage, and root-uptake problems demonstrate that the proposed NGS-based multigrid framework is both computationally efficient and robust.",
+      "authors": [
+        "Xuelong Gu",
+        "Qi Wang"
+      ],
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-06-02T23:44:51+00:00",
+      "link": "https://arxiv.org/pdf/2606.04292v1",
+      "tags": [
+        "keyword:coast-iso",
+        "query:coast-iso"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Numerical solver for the Richards equation, a core groundwater flow model applicable to variably saturated coastal aquifers",
+      "llm_evidence_cn": "Richards方程数值求解器，可应用于海岸带变饱和含水层地下水流模拟",
+      "llm_evidence": "Richards方程数值求解器，可应用于海岸带变饱和含水层地下水流模拟",
+      "canonical_evidence": "Richards方程数值求解器，可应用于海岸带变饱和含水层地下水流模拟",
+      "llm_tldr_en": "Presents a nonlinear multigrid solver for the Richards equation, enabling efficient simulation of variably saturated flows in porous media, a key component for groundwater and coastal aquifer modeling.",
+      "llm_tldr_cn": "本文针对多孔介质中变饱和流问题，提出了一种非线性多重网格求解器，用于高效求解Richards方程。该方法基于守恒有限差分格式和隐式时间步进，采用非线性高斯-赛德尔平滑器处理强非线性水力特性。该求解器为地下水及海岸带含水层变饱和流数值模拟提供了关键计算工具，有助于研究海水入侵等过程。",
+      "llm_tldr": "本文针对多孔介质中变饱和流问题，提出了一种非线性多重网格求解器，用于高效求解Richards方程。该方法基于守恒有限差分格式和隐式时间步进，采用非线性高斯-赛德尔平滑器处理强非线性水力特性。该求解器为地下水及海岸带含水层变饱和流数值模拟提供了关键计算工具，有助于研究海水入侵等过程。",
+      "llm_tags": [
+        "query:coastal-gw:composite"
+      ],
+      "matched_query_tag": "query:coastal-gw:composite",
+      "matched_query_text": "Papers central to 海岸带地下水及数值模拟相关研究, especially work that connects or combines: coastal aquifer hydrogeology and water resources; seawater intrusion monitoring and management; porewater flow and chemical exchange across sediment-water interfaces; Numerical simulation methods for groundwater flow and transport; variable-density flow and solute transport simulation; characterization of coastal aquifers using geophysical methods; Recent developments in submarine groundwater discharge research and quantification methods; Assessing saltwater intrusion vulnerability under sea level rise scenarios; Mapping offshore fresh groundwater reserves and their resource potential; What are the best practices for modeling saltwater intrusion with density dependent flow?.",
+      "matched_requirement_id": "req-composite-coastal-gw",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2606.20322v1",
+      "source": "arxiv",
+      "title": "Towards 3D karst underwater scene reconstruction from rotating sonar data",
+      "abstract": "Karst aquifers provide critical freshwater resources but pose significant hazards due to their complex and poorly understood subsurface geometry. Mapping these environments is challenging because sonar data from underwater exploration is sparse and noisy, while navigation estimates suffer from drift limiting standard 3D reconstruction methods. We present a pipeline for reconstructing underwater karst conduits from a sonar profiler. We combine a continuous-time SLAM approach to correct trajectory drift with a novel two-stage deep learning method for surface reconstruction, producing an immersive and navigable 3D mesh for hydrogeological analysis.",
+      "authors": [
+        "Georgios Evangelos Margaritis",
+        "Lionel Lapierre",
+        "Simon Rohou",
+        "Zhi Yan",
+        "Andreas Nüchter",
+        "François Goulette"
+      ],
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-18T15:02:00+00:00",
+      "link": "https://arxiv.org/pdf/2606.20322v1",
+      "tags": [
+        "keyword:coast-iso",
+        "query:coast-iso"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Sonar-based 3D karst conduit reconstruction provides geophysical characterization for aquifer analysis",
+      "llm_evidence_cn": "基于声纳的岩溶管道3D重建为含水层分析提供了地球物理表征方法",
+      "llm_evidence": "基于声纳的岩溶管道3D重建为含水层分析提供了地球物理表征方法",
+      "canonical_evidence": "基于声纳的岩溶管道3D重建为含水层分析提供了地球物理表征方法",
+      "llm_tldr_en": "This paper presents a pipeline for underwater karst conduit 3D reconstruction from sonar data, combining SLAM and deep learning to produce navigable meshes for hydrogeological analysis.",
+      "llm_tldr_cn": "针对岩溶含水层内部几何形态复杂且难以探测的问题，本文提出一种利用旋转声纳数据进行水下岩溶管道三维重建的流程。该流程结合连续时间SLAM轨迹校正与两阶段深度学习方法进行表面重建，生成可用于水文地质分析的沉浸式三维网格。该方法有助于揭示岩溶含水层的复杂结构，为地下水建模与资源评估提供支撑。",
+      "llm_tldr": "针对岩溶含水层内部几何形态复杂且难以探测的问题，本文提出一种利用旋转声纳数据进行水下岩溶管道三维重建的流程。该流程结合连续时间SLAM轨迹校正与两阶段深度学习方法进行表面重建，生成可用于水文地质分析的沉浸式三维网格。该方法有助于揭示岩溶含水层的复杂结构，为地下水建模与资源评估提供支撑。",
+      "llm_tags": [
+        "query:coastal-gw:composite"
+      ],
+      "matched_query_tag": "query:coastal-gw:composite",
+      "matched_query_text": "Papers central to 海岸带地下水及数值模拟相关研究, especially work that connects or combines: coastal aquifer hydrogeology and water resources; seawater intrusion monitoring and management; porewater flow and chemical exchange across sediment-water interfaces; Numerical simulation methods for groundwater flow and transport; variable-density flow and solute transport simulation; characterization of coastal aquifers using geophysical methods; Recent developments in submarine groundwater discharge research and quantification methods; Assessing saltwater intrusion vulnerability under sea level rise scenarios; Mapping offshore fresh groundwater reserves and their resource potential; What are the best practices for modeling saltwater intrusion with density dependent flow?.",
+      "matched_requirement_id": "req-composite-coastal-gw",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
