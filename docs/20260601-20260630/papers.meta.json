@@ -1,8 +1,39 @@
 {
   "label": "2026-06-01 ~ 2026-06-30",
   "date": "2026-06-01 ~ 2026-06-30",
-  "generated_at": "2026-06-30T06:07:46",
-  "count": 0,
-  "papers": [],
+  "generated_at": "2026-06-30T06:27:34",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "20260601-20260630/2606.10836v1-bounding-the-null-space-interval-based-uncertainty-quantification-for-non-identifiable-groundwater-models",
+      "section": "quick",
+      "title_en": "Bounding the Null Space: Interval-Based Uncertainty Quantification for Non-Identifiable Groundwater Models",
+      "authors": "Maximilian Ramgraber, Ksenia Bestuzheva",
+      "date": "2026-06-09",
+      "pdf": "https://arxiv.org/pdf/2606.10836v1",
+      "score": "8.0",
+      "evidence": "针对非可识别地下水模型的区间不确定性量化方法",
+      "tldr": "地下水模型观测稀疏导致非唯一性，传统采样因探索有限易低估解的范围。本文提出优化约束收紧(OBBT)方法，将参数直接表示为区间，通过极值求解物理约束系统获得严格外边界，无需采样。针对达西流双线性项，McCormick松弛引入非物理流，使用流动符号规定与无旋约束可有效收紧区间。在稳态及瞬态案例中验证，OBBT提供保守确定性的UQ框架，与零空间理论耦合。",
+      "tags": "query:coastal-gw",
+      "abstract_en": "Groundwater models are routinely non-identifiable: sparse subsurface observations leave many combinations of parameters, states, and boundary conditions equally consistent with the available data. Existing uncertainty quantification (UQ) methods address this by exploring a finite set of model realizations, but incomplete exploration can systematically underestimate the true range of admissible solutions. We propose a fundamentally different approach based on Optimization-based Bound Tightening (OBBT), which represents uncertainty directly as intervals and tightens them by extremizing variables over a constraint system encoding physical laws and observations. This yields guaranteed outer bounds on all uncertain variables without sampling, side-stepping the exploration problem entirely. To apply OBBT to groundwater flow, we discretize Darcy's law using a finite-volume scheme and handle the resulting bilinear terms through McCormick relaxations. We show that these relaxations can break the sign coupling between fluxes and head gradients, permitting non-physical rotational flow and failing to provide sufficient information for effective bound tightening. We identify flow sign prescription and irrotationality constraints as effective remedies and characterize their respective strengths and limitations. We demonstrate the framework on three numerical examples - a 1D steady-state model, a 2D steady-state model across four experimental configurations, and a 2D transient model on a hexagonal grid - and discuss computational performance, scalability, and directions for future research. OBBT offers a conservative, deterministic, and physically grounded alternative to ensemble-based UQ, with natural connections to null space theory and data assimilation.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "20260601-20260630/2606.11140v1-data-assimilation-for-subsurface-flow-using-latent-diffusion-model-parameterization-performance-of-ensemble-kalman-and-monte-carlo-techniques",
+      "section": "quick",
+      "title_en": "Data assimilation for subsurface flow using latent diffusion model parameterization: performance of ensemble-Kalman and Monte Carlo techniques",
+      "authors": "Guido Di Federico, Wenchao Teng, Louis J. Durlofsky",
+      "date": "2026-06-09",
+      "pdf": "https://arxiv.org/pdf/2606.11140v1",
+      "score": "8.0",
+      "evidence": "利用潜在扩散模型进行地下水流数据同化，直接支持数值地下水模拟方法。",
+      "tldr": "针对地下流数据同化中需兼顾地质真实性与不确定性量化的难题，本研究使用潜扩散模型（LDM）降维，系统对比了集合平滑器（ESMDA）与蒙特卡洛方法。发现模型空间ESMDA虽降不确定性却失真，潜空间ESMDA保持真实但降不确定性有限；进而引入MCMC和SMC，并结合快速代理模型加速计算，在3D潜空间中实现了更低的数据失配与更充分的不确定性降低，证明了严格采样方法优于集合卡尔曼，为非线性参数化下的可靠数据同化提供了新路径。",
+      "tags": "query:coastal-gw",
+      "abstract_en": "Data assimilation (DA) in subsurface flow entails calibrating model parameters to match observed data, typically at wells, while preserving geological realism. Latent diffusion models (LDMs) provide efficient mappings from high-dimensional geological model space to a low-dimensional latent variable, reducing the dimensionality of the inverse problem while maintaining plausibility in posterior geomodels. However, the high nonlinearity in the LDM mapping may degrade the performance of Kalman-gain-based ensemble updates. We present a systematic comparison of DA algorithms applied to large-scale 3D channelized geomodels with hierarchical geological uncertainty. We compare model-space and latent-space DA using the ensemble smoother with multiple data assimilation (ESMDA), and demonstrate a key trade-off: model-space updates achieve significant uncertainty reduction but produce geologically unrealistic posterior models, while latent-space updates preserve realism but exhibit limited uncertainty reduction. Motivated by this, we explore rigorous Markov chain Monte Carlo (MCMC) and Sequential Monte Carlo (SMC) algorithms in the 3D-LDM latent space. To accommodate their high computational demands, we develop a fast surrogate flow model that approximates well-rate responses. MCMC and SMC are evaluated against ESMDA across three synthetic test cases, with DA performed in the LDM latent space. All models maintain geological realism due to the LDM parameterization. MCMC and SMC are consistent with one another and achieve lower data mismatch and more uncertainty reduction than latent-space ESMDA. Our overall results demonstrate that ensemble Kalman methods may provide overestimated posterior uncertainty with highly nonlinear parameterizations, while rigorous Monte Carlo sampling, enabled by fast surrogate models, can provide a more reliable alternative.",
+      "source": "arxiv",
+      "selection_source": "fresh_fetch"
+    }
+  ],
   "errors": []
 }
