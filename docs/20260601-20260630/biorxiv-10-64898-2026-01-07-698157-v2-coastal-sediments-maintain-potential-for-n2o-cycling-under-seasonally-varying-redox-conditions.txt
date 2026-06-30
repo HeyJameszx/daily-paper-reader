@@ -1,0 +1,1923 @@
+Title: Coastal sediments maintain potential for nitrous oxide cycling under seasonally varying redox conditions
+
+URL Source: https://www.biorxiv.org/content/10.64898/2026.01.07.698157v2.full.pdf
+
+Number of Pages: 42
+
+Markdown Content:
+1
+
+Coastal sediments maintain potential for  nitrous oxide  cycling under seasonally varying 1
+
+redox  conditions 2
+
+3
+
+Isabel M. L. Rigutto 1, *,a , Marit R. van Erk  1, *,a , Pedro  Leão 1, Caroline P. Slomp 1, Mike S. M. 4
+
+Jetten 1,2
+
+5
+
+6
+
+> 1
+
+Department of Microbiology, Radboud Institute for Biological and Environmental Sciences, 7
+
+Radboud University, Nijmegen,  6525 AJ,  The Netherlands . 2 Institute for Environmental 8
+
+Sciences and Geology, Lund University, Sweden 9
+
+10 
+
+> *
+
+Corresponding authors , e -mail: isabel.rigutto@ru.nl , marit.vanerk@ru.nl 11 
+
+> a
+
+These authors contributed equally to this work 12 
+
+13 
+
+14 
+
+Keywords:  nitrous oxide , sulfide,  coastal  sediment,  seasonal  stratification,  anoxia , nosZ ,15 
+
+nitrification, denitrification 16 
+
+17 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+2
+
+Author Contribution Statement 18 
+
+19 
+
+IR and ME contributed to conceptualization, methodology, investigation, formal analysis ,20 
+
+visualization, writing (original draft) and writing (review & editing). 21 
+
+PL contributed to methodology and writing (review & editing). 22 
+
+CS and MJ contributed to conceptualization, writing (review & editing) , funding,  and 23 
+
+supervision. 24 
+
+25 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+3
+
+Abstract 26 
+
+27 
+
+Coastal eutrophication  can lead to  deoxygenation  and  sulfide accumulation  in sediments ,28 
+
+which  could  strongly  impact  the  dynamics  of the  potent greenhouse gas  nitrous oxide (N 2O).29 
+
+Here, we investigated  the effects of oxygen (O 2) and sulfide on  microbial  N2O production 30 
+
+and consumption  in  surface sediments  of a seasonally  euxinic  (anoxic and sulfidic)  coastal 31 
+
+basin . In spring, the se  surface sediments are oxygenated, while  they are highly sulfidic  during 32 
+
+stratification of the water column in summer . During  oxygenated spring conditions , rapid 33 
+
+depletion of  the substrates  O2 and nitrate (NO 3-) in the  surface  sediment  limited  net  in  situ 34 
+
+N2O production,  despite potential for nitrification and for N 2O production through incomplete 35 
+
+denitrification  as observed in batch incubations . Based on metagenome and 36 
+
+metatranscriptome analyses the N 2O-consuming microbial community was  shown to be 37 
+
+highly diverse and dominated by clade II  nosZ -possessing  Flavobacteriia . Assessing  the 38 
+
+summer  sulfidic  conditions  in surface sediments  via batch incubations, we found that 39 
+
+moderate sulfide concentrations (0.2 –1 mM) enhanced  N2O consumption, whereas high 40 
+
+concentrations (4 mM) inhibited  all steps of  denitrification . These findings  highlight the 41 
+
+redox controls on N 2O dynamics , by indicating  that  coastal  sediments  can  maintain 42 
+
+significant  N2O turnover potential despite substrate limitations and elevated sulfide 43 
+
+concentrations . Consequently, ecosystem restoration strategies that alter  O2, NO 3- and sulfide 44 
+
+availability may fundamentally  impact  coastal  N2O budgets. 45 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+4
+
+Introduction 46 
+
+47 
+
+Nitrous oxide (N 2O)  is a highly potent greenhouse gas with a centennial atmospheric lifetime ,48 
+
+and  a primary ozone -depleting substance  (Prather et al., 2015; Ravishankara et al., 2009) .49 
+
+Concerningly, g lobal  N2O emissions have risen by 10% since 1980 , with significant 50 
+
+emissions from marine  ecosystems  (Tian et al., 2024) . Due to their proximity to land, c oastal 51 
+
+systems  are very  active  in terms of biogeochemical cycling , which  in turn  also makes them 52 
+
+vulnerable to anthropogenic pressures , such as eutrophication via increased nitrogen loading 53 
+
+(Kuliński et al., 2022) . Eutrophication and warming -induced stratification are driving 54 
+
+widespread deoxygenation  in coastal systems  (Breitburg et al., 2018) , leading to  anoxic 55 
+
+surface  sediments  characterized by  the  accumulation of reduced compounds,  such as 56 
+
+ammonium  (NH 4+) and hydrogen sulfide  (H 2S)  (Jäntti & Hietanen, 2012; Żygadłowska et al., 57 
+
+2023) . Through the tight link between elemental cycles, such altered redox conditions c ould 58 
+
+severely impact N 2O dynamics in coastal  sediments  (Murray et al., 2015) . However, the 59 
+
+effect s of  ongoing deoxygenation and the expansion of  sulfidic  conditions  on N 2O dynamics 60 
+
+are complex and not yet well -understood , contributing to the high uncertainty  in the marine 61 
+
+N2O budget  (Bange et al., 2019; Resplandy et al., 2024) .62 
+
+63 
+
+Net  N2O dynamics  are  dictated by the balance between production and consumption 64 
+
+pathways.  While  N2O can be formed abiotically  via metals, organic material or sunlight 65 
+
+(Leon -Palmero et al., 2025; Otte et al., 2019; Zhu -Barker et al., 2015) , biotic  pr oduction 66 
+
+occurs primarily through  microbial  nitrification and denitrification.  Under oxygen (O 2)67 
+
+limitation , ammonia -oxidizing bacteria ( AOB ) generate  N2O as a byproduct of  the aerobic 68 
+
+oxidation  of the hydroxylamine intermediate  or via nitrifier -denitrification  (Caranto et al., 69 
+
+2016; Kozlowski et al., 2014; Zhu et al., 2013) , while  ammonia -oxidizing  archaea (AOA) 70 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+5
+
+produce N 2O from NH 4+ and  nitrite ( NO 2-) through a hybrid mechanism  (Kozlowski et al., 71 
+
+2016; Stieglmeier et al., 2014) . In anoxic zones, denitrification , the stepwise reduction of 72 
+
+nitrate (NO 3−) to dinitrogen (N 2), can release  N2O. This process is generally heterotrophic, 73 
+
+coupled to organic matter degradation, though chemolithotrophic reduction can also occur 74 
+
+(Bruckner et al., 2013; Galán et al., 2014) . Conversely, the only known biological sink 75 
+
+for  N2O is its reduction to  N2 by  microorganisms  possessing  the enzyme nitrous oxide 76 
+
+reductase (NosZ ). Genomic analyses distinguish between microorganisms carrying clade 77 
+
+I nosZ , typically associated  with complete denitrifiers, and those carrying clade II  nosZ ,78 
+
+which often lack upstream denitrification genes but may exhibit a higher affinity for  N2O79 
+
+(Hallin et al., 2018; Yoon et al., 2025) . Clade II -bearing taxa may  therefore  represent a 80 
+
+specialized N 2O sink community capable of scavenging  N2O at low concentration s (Laureni 81 
+
+et al., 2025) . Recently,  a third , lactonase -related  NosZ clade,  clade III , has been  identified 82 
+
+(He et al., 2025) , but its contribution to N 2O removal  has  not  yet been  well explored. 83 
+
+84 
+
+In  eutrophic  coastal  systems  porewater sulfide can reach  mM -range  concentrations  (Dalcin 85 
+
+Martins et al., 2024; Żygadłowska et al., 2023)  as a result of  deoxygenation  and  intense 86 
+
+sulfate  (SO 42-) reduction  via  organic matter mineralization . Sulfide  can severely impact  N2O87 
+
+dynamics by interacting with  the nitrogen cycle. It inhibits nitrification  (Æsøy et al., 1998; 88 
+
+Bejarano Ortiz et al., 2013; Joye & Hollibaugh, 1995)  and, crucially, can  halt  denitrification ,89 
+
+particularly  at  the  N2O reduction  step , leading to N 2O accumulation  (Dalsgaard et al., 2014; 90 
+
+Li et al., 2021; Pan et al., 2013; Senga et al., 2006) . Sulfide can  also inhibit  N2O production 91 
+
+from denitrification  indirectly by  stimulat ing  dissimilatory nitrate reduction to  ammoni um 92 
+
+(DNRA)  (An & Gardner, 2002; Brunet & Garcia -Gil, 1996; Murphy et al., 2020) , which 93 
+
+competes  with denitrification  for the available  NO 3-. However, sulfide may  also  stimulate 94 
+
+denitrification by serving as an electron donor for autotrophic denitrifiers  (Shao et al., 2010) .95 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+6
+
+Consequently, the net impact of sulfide on coastal  N2O dynamics , whether it acts primarily as 96 
+
+an inhibitor  or substrate  of  denitrification , remains poorly constrained, particularly in systems 97 
+
+undergoing seasonal redox oscillations. 98 
+
+99 
+
+Here, we  explored the  effects  of O 2 and sulfide  on N 2O cycling  in the surface sediments of a 100 
+
+seasonally euxinic  (anoxic and sulfidic)  coastal basin ( marine Lake Grevelingen,  The 101 
+
+Netherlands ).  At this site,  bottom waters and surface sediments are oxygenated in winter  and 102 
+
+early spring , whereas  stratification leads to  euxinic  bottom waters  and highly sulfidic 103 
+
+sediments  in summer,  creating distinct  seasonal  variation s in redox conditions  (Żygadłowska 104 
+
+et al., 2023) . We  expected  strong  effects of  these redox  variations  on the microbial  N2O105 
+
+dynamics.  We  combined  oxic, anoxic and sulfidic  batch  incubations with microsensor 106 
+
+profiling  and  porewater , metagenom e and  metatranscriptome  analys es to: (i)  assess  the 107 
+
+potential for N 2O production and consumption  in  surface sediments  under oxic and anoxic 108 
+
+conditions , (ii) identify the active microbial taxa driving these  processes , and (iii)  assess  the 109 
+
+effect  of sulfide  on  N2O production and consumption through denitrification . Our findings 110 
+
+highlight critical  redox -associated  mechanisms  that regulate  N2O dynamics  in eutrophic 111 
+
+coastal sediments , thereby  necessitating a nuanced understanding of sediment redox 112 
+
+chemistry in future climate mitigation strategies .113 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+7
+
+Materials and methods 114 
+
+115 
+
+Study area 116 
+
+Lake Grevelingen is a former estuary located in the southwest of The Netherlands. It was 117 
+
+dammed on its landward and seaward sides in 1964 and 1971, respectively. Since 1978, 118 
+
+exchange of water with the North Sea occurs via an underwater opening, hence the salinity of 119 
+
+Lake Grevelingen is  currently comparable to that of the adjacent marine waters (~29 -32)  (e.g. 120 
+
+7, 73) . Lake Grevelingen has a surface area of 115 km 2 and an average depth of 5.1 m, 121 
+
+however, deeper former estuarine tidal channels are still present. The nutrient status of Lake 122 
+
+Grevelingen is eutrophic. 123 
+
+124 
+
+This study focuses on Scharendijke basin (51.742° N, 3.849° E), a 45 -m deep basin within 125 
+
+one of the former estuarine tidal channels. The basin is characterized by a high sediment 126 
+
+accumulation rate (~13 -20 cm yr -1) and a high flux of organic matter to the sediment -water 127 
+
+interface (~91 mol C m -2 yr -1) (Egger et al., 2016; Van Helmond et al., 2025) . Temperature -128 
+
+induced stratification in summer leads to euxinic bottom waters from approximately June to 129 
+
+September, while in spring the water column is well -mixed with oxygenated bottom waters 130 
+
+(Żygadłowska et al., 2023) . Summer stratification and the absence of O 2 in bottom waters 131 
+
+lead to accumulation of reduced compounds , such as  NH 4+ and H 2S. In underlying surface 132 
+
+sediments, NH 4+ concentrations are high year -round, while concentrations of H 2S are  only 133 
+
+high in summer  (Żygadłowska et al., 2023) .134 
+
+135 
+
+Sediment and porewater collection 136 
+
+Sediment and porewater were collected during two sampling campaigns: in March 2024 137 
+
+(hereafter referred to as spring) with the RV  Navicula , and in August 2024 (hereafter referred 138 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+8
+
+to as summer) with the RV  Wim Wolff . Sediment was collected using a UWITEC gravity 139 
+
+corer (PVC core liners; inner diameter 6 cm). Subsequent sediment slicing and porewater 140 
+
+collection took place onboard. One sediment core per sampling campaign was sliced under a 141 
+
+N2-atmosphere in 0.5 cm intervals between 0 and 5 cm depth, and in 1 cm intervals between 142 
+
+5 and 15 cm depth. Between 10 and 15 cm depth, only every other centimeter was used for 143 
+
+further processing. Sliced sediment was collected in 50 mL tubes, which were centrifuged at 144 
+
+4000 rpm for 20 min. The resulting supernatant was filtered (0.45 μm), and subsampled for 145 
+
+the analysis of NO 3- and NH 4+ (stored at  -20  °C), total S and dissolved metals (Cu, Fe and 146 
+
+Mn) (acidified using 30% suprapur HCl and stored at 4 °C), and H 2S (0.5 mL of porewater 147 
+
+fixed with 2 mL 2% ZnAc and stored at 4 °C). Two samples from the bottom water overlying 148 
+
+the sediment were processed identically to the porewater samples. 149 
+
+150 
+
+In spring, incubation material was collected by slicing sediment from two sediment cores in 151 
+
+0.5 cm intervals onboard (0 -2 cm depth). The sediment was subsequently stored in sealed 152 
+
+aluminum bags at 4 °C, with processing and storage under a N 2 atmosphere. The top 2 cm of 153 
+
+an additional sediment core was sliced at 0.5 cm depth intervals to collect sediment for DNA 154 
+
+analysis and porosity determination. The samples for DNA were vortexed and immediately 155 
+
+frozen at  -80 °C onboard, and stored at  -20 °C in the laboratory. The samples for porosity 156 
+
+determination were collected in pre -weighed tubes and stored at 4 °C. Porosity was 157 
+
+determined by the weight loss after oven -drying of the sediment at 60 °C, and calculated 158 
+
+assuming  a sediment density  of  2.65 g cm -3 (Burdige, 2006) . A final sediment core  was 159 
+
+sampled  for RNA,  by  slic ing  the sediment  immediately after collection into 0.5 cm intervals 160 
+
+down  to 2 cm depth. These samples were immediately snap -frozen in dry ice and stored at  -161 
+
+80 °C onboard and at  -70 °C in the laboratory. 162 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+9
+
+163 
+
+Microsensor depth profiling 164 
+
+Microsensor depth profiling was performed onboard in both spring (O 2, H 2S, N 2O) and 165 
+
+summer (H 2S). O 2 and N 2O microprofiling could not be performed in summer, as the high 166 
+
+H2S concentrations in the sediment  interfere with  the microsensors. Microsensor tip sizes 167 
+
+were 50 μm for O 2 and H 2S, and 500 μm for N 2O. Depth profiles  were  determined  in 168 
+
+sediment cores as soon as possible after collection (typically all profiles were measured 169 
+
+within a few hours), starting with O 2 and N 2O, with step sizes of 100 μm for O 2,  100 μm 170 
+
+(summer) and 200 μm (spring) for H 2S, and 500 μm for N 2O. Sensors were connected to 171 
+
+either a fx -5 UniAmp or a Multimeter, and attached to a motorized micromanipulator (all 172 
+
+sensors and instruments Unisense A/S, Aarhus, Denmark). The O 2 microsensors were 173 
+
+calibrated using air -saturated and N 2-purged Scharendijke basin water. The H 2S microsensors 174 
+
+were calibrated by step -wise addition of a 229 mM Na 2S stock solution to acidified 175 
+
+Scharendijke basin water (pH < 2). The N 2O microsensors were 2 -point calibrated using a 176 
+
+N2O calibration kit (Unisense A/S, Aarhus, Denmark) using Scharendijke basin water. 177 
+
+Measurements were conducted for three sediment cores, and representative profiles are 178 
+
+presented. N 2O fluxes were calculated using Fick's first law based on the N 2O concentration 179 
+
+gradient in the surface sediment (eq. 1), 180 
+
+181 
+
+𝐽  = −∅𝐷 𝑠  
+
+> 𝑑𝐶
+> 𝑑𝑧
+
+, equation 1 182 
+
+183 
+
+where J is the diffusive flux in mol m -2 s-1, ø the porosity of the sediment, D s the sedimentary 184 
+
+N2O diffusion coefficient in the porewater in m 2 s-1, C the N 2O concentration in mol m -3, and 185 
+
+z the sediment depth in m. D s was calculated from the diffusion coefficient in seawater at the 186 
+
+in situ  temperature and salinity (D 0) (eq. 2), 187 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+10 
+
+188 
+
+𝐷 𝑠  = 𝐷 0 
+
+> 𝜃 2
+
+equation 2 189 
+
+190 
+
+where  Ө is the turtuosity of the sediment (eq. 3), 191 
+
+192 
+
+Ө2 = 1 − ln (∅2) equation 3 193 
+
+194 
+
+Porosity was taken as the average porosity for the top 3.5 cm. Conversion (production or 195 
+
+consumption) of  N2O was calculated using the change in flux over depth. 196 
+
+197 
+
+Incubations 198 
+
+Within two days after sampling, oxic and anoxic batch incubations were set up in the 199 
+
+laboratory with the spring sediment from 0.0 -0.5 and from 1.0 -1.5 cm depth. The incubations 200 
+
+were prepared as described by  Rigutto et al. (2025) . The headspace in the anoxic bottles was 201 
+
+exchanged for argon gas to a pressure of 1.4 bar by subsequent rounds of vacuum and 202 
+
+gassing. For both depths, the anoxic incubations were amended with 100 μM Na 15 NO 3, 100 203 
+
+μM Na 15 NO 2 or 0.5% N 2O. An anoxic no -substrate treatment served as control. For the 0.0 -204 
+
+0.5 cm section, additional oxic incubations were included, which were bubbled with air until 205 
+
+the O 2 concentration in the slurry was  >260 μM, as determined by an O 2 microsensor (50 μm 206 
+
+tip size; Unisense A/S, Aarhus, Denmark ) connected to a Multimeter (Unisense A/S, Aarhus 207 
+
+Denmark), 2 -point calibrated using air -saturated and N 2-purged water. Besides a no -substrate 208 
+
+control, the treatments for the oxic incubations included supplementation of 100 μM  15 NH 4Cl 209 
+
+or 100 μM Na 15 NO 2. All incubations were set up in duplicate. The bottles were incubated at 210 
+
+12 °C at 100 rpm in the dark for 148 hrs  to allow for substrate depletion to determine N 2O211 
+
+cycling potential rather than  in situ  rates . Over time, liquid samples for the analysis of NH 4+
+
+212 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+11 
+
+and  NO 2- and NO 3- (NO x) were taken non -destructively, filtered (0.2 μm) and stored at  -20 213 
+
+°C. 214 
+
+215 
+
+Another set of anoxic batch incubations was set up  9 months post sampling  to assess the 216 
+
+effect of sulfide on  the  denitrification  potential . A s storage time may have affected the 217 
+
+microbial community,  we could not compare conversion rates in these incubations to the rates 218 
+
+observed with fresh sediments. Nonetheless,  these incubations provided insight into the 219 
+
+response of the  denitrifying  microorganisms endogenous to the surface sediment of 220 
+
+Scharendijke basin to various concentrations of sulfide.  Sediment from spring from 1.0 -1.5 221 
+
+cm depth was incubated as above and duplicate incubations were amended with 200 μM 222 
+
+Na 15 NO 3 or 0.5%  44 N2O, and 0.0, 0.2, 1 or 4 mM Na 2S, which are environmentally relevant 223 
+
+concentrations  (Żygadłowska et al., 2023) . The bottles were incubated at 12 °C at 100 rpm in 224 
+
+the dark. Liquid samples for the analysis of NH 4+, NO x and  H2S were taken  non -destructively 225 
+
+and filtered (0.2  μm ) anoxically, and stored at  –20 °C.  The pH was monitored over time with 226 
+
+pH paper  and was  ~8. 227 
+
+228 
+
+Chemical analyses 229 
+
+NO 3- concentrations in porewater and incubation samples, as well as NO 2- concentrations in 230 
+
+incubation samples, were quantified spectrophotometrically with the Griess assay  (Miranda et 231 
+
+al., 2001)  using a SpectraMax190 microplate reader (Molecular Devices, San Jose, UK). 232 
+
+Porewater NH 4+ was analyzed spectrophotometrically with the indophenol blue method 233 
+
+(Solórzano, 1969)  using a UV -1900i UV -VIS spectrophotometer (Shimadzu, Kyoto, Japan), 234 
+
+and NH 4+ in the incubation samples  was measured by fluorescence upon reaction with the o -235 
+
+phtaldehyde (OPA) reagent using a Spark M10 plate reader (Tecan, Männedorf, Switzerland) 236 
+
+(Goyal et al., 1988; Rigutto et al., 2025) . Total S (assumed to be  SO 42-) and dissolved Fe and 237 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+12 
+
+Mn concentrations were determined using inductively coupled plasma optical emission 238 
+
+spectrometry (ICP -OES, iCap 6300, Thermo Fisher Scientific, Waltham, Massachusetts, 239 
+
+USA). Dissolved Cu concentrations were determined by inductively coupled plasma mass 240 
+
+spectrometry (ICP -MS; iCAP -T-RQ -ICP -MS, Thermo Fisher Scientific, Waltham, 241 
+
+Massachusetts, USA). H 2S concentrations in the porewater and incubations were determined 242 
+
+spectrophotometrically with the phenylenediamine and ferric chloride method  (Cline, 1969) 243 
+
+using a UV -1900i UV -VIS spectrophotometer (Shimadzu, Kyoto, Japan). 244 
+
+245 
+
+Headspace gas concentrations were measured over time by an 8890 gas chromatograph (GC; 246 
+
+Agilent, Santa Clara, CA, USA)  equipped with an Agilent 6 FT Porapak Q 80/10 column and 247 
+
+coupled to a 5977B mass selective detector (MS; Agilent, Santa Clara, CA, USA). 248 
+
+249 
+
+Metagenome  and metatranscriptome  sequencing 250 
+
+DNA was extracted from up to 0.7 g centrifuged sediment (5000 x g) from 0.0 -0.5, 0.5 -1.0, 251 
+
+1.0 -1.5 and 1.5 -2.0 cm depth from spring with the DNeasy PowerSoil Pro Kit (Qiagen, 252 
+
+Venlo, The Netherlands) following the manufacturer’s instructions. Bead beating was done at 253 
+
+50 Hz for 10 minutes in a tissue disruptor (Qiagen, Venlo, The Netherlands) to lyse the cells. 254 
+
+Per sample, 3.2 -3.5 μg of extracted DNA was sent for PCR -free metagenome sequencing (10 255 
+
+Gb per sample; TruSeq DNA PCR -free library preparation (550 bp insert size), NovaSeq X 256 
+
+platform, Macrogen, Amsterdam, The Netherland s). 257 
+
+258 
+
+Sediment samples for RNA extraction from spring (0.0 -0.5 and 1.0 -1.5 cm depth) were 259 
+
+freeze -dried and subsequently RNA was extracted from ~0.5 g freeze -dried sample with the 260 
+
+RNeasy PowerSoil Total RNA Kit (Qiagen, Venlo, The Netherlands) with the following 261 
+
+modifications to the manufacturer’s protocol: at step 2 we also added 0.5 mL DEPC -treated 262 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+13 
+
+water, at step 3 we added 4 mL of phenol/chloroform/isoamyl alcohol, and at step 9 we added 263 
+
+1 mL DEPC -treated water. DNA was removed from the extracted nucleotides by the 264 
+
+Invitrogen DNA -free ™ DNA Removal Kit (Thermo Fischer Scientific, USA) according to 265 
+
+the instructions of the manufacturer. The quality of the RNA was confirmed with the  Agilent 266 
+
+RNA 6000 Nano Kit according to the manufacturer’s protocol using the  2100 Bioanalyzer 267 
+
+(Agilent technologies, USA). The extracted RNA (4.9 -25.3 μg) was sent for PCR -free 268 
+
+metatranscriptome sequencing (20 Gb per sample; TruSeq stranded with NEB rRNA 269 
+
+depletion kit (bacteria), NovaSeq X platform, Macrogen, Amsterdam, The Netherland s). For 270 
+
+each of the two depth intervals, two separate RNA extractions were conducted and sent 271 
+
+separately for metatranscriptome sequencing. 272 
+
+273 
+
+The raw  metagenom e and  metatranscriptome sequencing reads are deposited in NCBI  under 274 
+
+BioProject number PRJNA1321550 . Analyses of the metagenome and metatranscriptome 275 
+
+data are detailed in Supplementary information 1 and 2, respectively. 276 
+
+277 
+
+278 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+14 
+
+Results 279 
+
+280 
+
+Porewater  profiles 281 
+
+To  capture the sedimentary  redox  conditions  across  the  seasonally  differ ing  water column 282 
+
+conditions (well -mixed  with  oxic  bottom waters  in spring and stratified  and euxi nic bottom 283 
+
+waters  in summer) , porewate r analyses were conducted  in March 2024 (spring) and August 284 
+
+2024 (summer) . In spring,  the surface sediment of Scharendijke  basin was oxygenated and 285 
+
+non -sulfidic,  with an  O2 penetrat ion depth of  0.7 mm  (Fig.  1a).  In  summer, O 2 was absent ,286 
+
+and  porewater H 2S concentrations increased  strongly  with depth  to mM concentrations  (Fig. 287 
+
+1a; Supplementary Fig. 1a) , reflecting the  strong  seasonal variability within the system . SO 42-
+
+288 
+
+concentrations in  spring  were  stable  at ~ 22 mM  until  7.5  cm  depth  and  decreased  with depth 289 
+
+below  (Supplementary  Fig.  1b), whereas  in summer  SO 42- concentrations  decrease d with 290 
+
+depth  from  the sediment -water interface  onwards .291 
+
+292 
+
+In spring,  N2O concentrations  decreased  in the surface sediment from 71 nM at the sediment -293 
+
+water interface to 0 nM at 0.15 cm depth  (Fig. 1b),  indicating  N2O consumption 294 
+
+(Supplementary Fig.  2) . NH 4+ concentrations were  ~0.4  mM  throughout the top 7.5 cm  of 295 
+
+sediment and increased below  this depth  in spring . In  summer , NH 4+ concentrations were 296 
+
+higher  and increased with depth from  0.3 mM at  the sediment -water interface  onward  (Fig. 297 
+
+1c; Supplementary  Fig.  1c). NO 3- was present  at the sediment -water interface  in  spring  (13.2 298 
+
+μM) , however  was  very  quickly depleted in the sediment. In  summer , NO 3- was  not detected 299 
+
+(Fig.  1d; Supplementary  Fig.  1d). 300 
+
+301 
+
+Dissolved Fe and Mn were present in the porewater i n μM -range concentrations  in  both 302 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+15 
+
+spring  and  summer  (Supplementary  Fig.  1e, f ).  Dissolved Cu concentrations  in the top 5 cm 303 
+
+were  generally higher in spring  (0.10 -0.27 μM ) than in summer  (Supplementary Fig. 1g) .304 
+
+305 
+
+306 
+
+Figure 1. Microsensor depth profiles of a) O 2 in spring (green), and H 2S in spring (grey; 307 
+
+solid line) and summer (grey; dashed line), and b) N 2O in spring. Porewater depth profiles of 308 
+
+c) NH 4+ in spring (solid line) and summer (dashed line) and d) NO 3- in spring (solid line) and 309 
+
+summer (dashed line). 310 
+
+311 
+
+Potential for N 2O-mediating processes 312 
+
+To identify the processes that  could  contribute to N 2O production  and consumption  in the 313 
+
+surface sediments  of  Scharendijke  basin , batch incubations were set up  under both oxic and 314 
+
+anoxic conditions . In this way we could link the potential  to the seasonally changing  redox 315 
+
+conditions of the surface sediments  in Scharendijke basin.  To enable  substrate depletion, the 316 
+
+incubations lasted more than 48 hrs despite potential changes in the microbial community 317 
+
+over time.  In the  fully  oxic  incubations  (>260 μM  O2 at the start ) with sediment from  0.0 -0.5 318 
+
+cm depth , NH 4+ and NO 2- were oxidized to NO 3-, both  in the amended  and unamended 319 
+
+control  treatment , though the supplemented  NH 4+ and NO 2- were not completely oxidized 320 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+16 
+
+over the incubation time of 148 hrs  (Supplementary  Fig.  3). Moreover, no N 2O accumulation 321 
+
+was observed in these  incubations . The  presence  of O 2 in these incubations  was confirmed by 322 
+
+GC -MS  during  the first 76 hrs , and the  consumption of NH 4+ and  concurrent  production of 323 
+
+NO 2- and NO 3- up to 148 hrs indicate that  sufficient O 2 was available  throughout the 324 
+
+incubation period .325 
+
+326 
+
+In contrast, net production  (accumulation)  of N 2O was detected in the anoxic  incubations 327 
+
+supplemented with NO 3- or NO 2- (Fig.  2c, h ; Supplementary  Fig.  4b,  c; Supplementary  Fig. 328 
+
+5b,  c). For  both  sediment  depths  (0.0 -0.5 and 1.0 -1.5 cm) , the  reduction  of  15 NO 3- resulted in 329 
+
+the production and consumption of NO 2- and  46 N2O and finally the formation of  30 N2,330 
+
+indicative of denitrification  (Fig.  2)  Notably, the reduction of nitrogen species was faster  for 331 
+
+the 0.0 -0.5 cm sediment s (NO 3- and  NO 2- were  both  depleted  at 48 hrs)  compared to the 1.0 -332 
+
+1.5 cm sediment s (NO 3- was  depleted  at 76  hrs  and NO 2- at 148 hrs) . Concomitantly,  NO 2-
+
+333 
+
+accumulated to higher levels upon NO 3- reduction  for the 1.0 -1.5 cm sediment s, and  higher 334 
+
+> 46
+
+N2O accumulation was observed. Nonetheless, N 2O was rapidly converted in the N 2O-335 
+
+amended  incubations  for both  sediment depths  (Fig.  2e, j ; Supplementary  Fig.  4d;336 
+
+Supplementary  Fig.  5d), indicating that the microbial population was adapted and did not 337 
+
+need induction of  nosZ . The supplementation of NO 3- versus NO 2- per sediment section 338 
+
+resulted in the accumulation of similar amounts of N 2O.  No N 2O production was detected in 339 
+
+the anoxic no -substrate control bottles ( Supplementary  Fig.  4a;  Supplementary  Fig.  5a).  The 340 
+
+NH 4+ concentrations increased slightly over time for  the  0.0 -0.5 cm sediment incubations ,341 
+
+including the no -substrate control , indicati ve of  remineralization. This was not observed  for 342 
+
+the  sediment from  1.0 -1.5 cm  depth .343 
+
+344 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+17 
+
+345 
+
+Figure  2. Concentrations of dissolved NO 3- (red; a,f), NO 2- (orange; b,g) and  headspace 346 
+
+> 46
+
+N2O (light blue; c,h),  30 N2 (purple; d,i) and  44 N2O (blue; e,j), over time in anoxic 347 
+
+incubations with sediment from Scharendijke from spring. Sediment from 0.0 -0.5 cm (a -e) 348 
+
+and 1.0 -1.5 cm (f -j) depth was amended with 100 μM Na 15 NO 3 (a -d, f -i) and 0.5% N 2O (e,j). 349 
+
+Error bars indicate the standard deviation between the measurements of duplicate incubation 350 
+
+bottles. 351 
+
+352 
+
+Abundance and expression of nitrogen cycle genes 353 
+
+To elucidate  the genomic potential for  in situ  N2O cycling pathways  and to identify the 354 
+
+responsible microorganisms , we analyzed the metagenome and metatranscriptome of surface 355 
+
+sediments from the Scharendijke basin  in spring  (Supplementary Tables 1 and 2).  Th e356 
+
+relative abundance of nitrogen cycle genes was lower than that of the single -copy marker 357 
+
+gene  gyrA  (Fig. 3) , yet  their transcript levels frequently exceeded  gyrA  expression, indicating 358 
+
+high metabolic activity (Supplementary Fig. 6).  Consistent with the limited nitrification 359 
+
+potential observed in  the batch  incubations,  NH 4+ oxidation genes ( amoA, hao ) were present 360 
+
+at low abundances. Although  NO 2- oxidation potential was evident,  nxrA  was undetectable in 361 
+
+the metagenome , likely due to the high functional diversity masking low -abundance genes. 362 
+
+Nevertheless, distinct  nxrA  transcripts were recovered in both the 0.0 –0.5 and 1.0 –1.5 cm 363 
+
+sections , confirming that nitrification pathways remain active despite low gene counts. 364 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+18 
+
+365 
+
+Genes  for  the complete  denitrification  pathway, i.e. reduction  of NO 3- (narG/napA ) NO 2-
+
+366 
+
+(nirK/nirS ), NO ( norB ) and N 2O (nosZ ) to N 2 were ubiquitous and more abundant than 367 
+
+nitrification markers (Fig. 3). Notably, while  nosZ  relative abundance exceeded that of 368 
+
+individual upstream genes ( narG, nirK, nirS, norB ) at all depths , the cumulative abundance 369 
+
+of  the  upstream  genes  napA +narG  and  nirK +nirS  surpassed  nosZ  at all depths and  from 1 cm 370 
+
+depth onwards, respectively , yielding ratios >1 (Supplementary Fig. 7 a, b ). The genomic 371 
+
+proportion of  nosZ , based on the  nosZ/gyrA  ratio,  decreased with depth (27% at 0.0 –0.5 cm 372 
+
+versus 17 –19% at 0.5 –2.0 cm), a trend reflected in the increasing ratio of denitrification 373 
+
+genes to  nosZ  with  depth up to 2.0 cm .374 
+
+375 
+
+376 
+
+Figure 3. Relative abundance of the nitrogen cycle genes in reads per million (RPM) with 377 
+
+depth in spring in the 0 -2 cm sediment section of Scharendijke basin. 378 
+
+379 
+
+Metat ranscriptom e analysis confirmed active denitrification in both investigated layers. 380 
+
+Interestingly, transcriptional regulation diverged from gene abundance:  narG  and  nirS  were 381 
+
+expressed at higher levels than their counterparts  napA  and  nirK , respectively, despite  their 382 
+
+lower genomic abundance. Crucially, the expression ratios of upstream steps ( napA +narG 383 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+19 
+
+and  nirK +nirS ) to the N 2O-reducing step ( nosZ ) consistently exceeded 1 (Supplementary Fig. 384 
+
+7d, e ), suggesting a transcriptional stoichiometry favoring N 2O production over reduction. 385 
+
+Conversely, the  norB /nosZ  expression ratio remained ≤ 1 (Supplementary Fig. 7 f). 386 
+
+387 
+
+Binning of the co -assembled contigs with a length of at least 1000 bp resulted in 93 MAGs in 388 
+
+total, of which 38 were ≥70% complete and contained ≤10% contamination. Combined, these 389 
+
+38 MAGs contained 10.7% of the contigs used  for  binning,  reflecting the  high microbial 390 
+
+diversity of the sediment. Of these 38 MAGs, 22 contained at least one marker gene for 391 
+
+denitrification and/or DNRA, but no MAGs encoding the complete denitrification pathway 392 
+
+were retrieved ( Supplementary Fig . 8 ). Notably, most of the MAGs encoding  nosZ  belonged 393 
+
+to  Flavobacteriaceae .394 
+
+395 
+
+Genes involved in  sulf ur  reduction  (e.g.  asrABC ), sulfur  oxidation  (e.g.  sqr, fccAB,  the  sox 396 
+
+genes ) and both ( e.g.  sat, aprAB , dsrAB ) were detected  throughout the top 2 cm of the 397 
+
+sediment at Scharendijke  basin  (Supplementary  Fig.  9).  Most genes were also expressed , with 398 
+
+the highest expression levels detected  for  the  aprAB  and  dsrAB  genes  across both depth 399 
+
+intervals (0.0 -0.5 and 1.0 -1.5 cm sediment sections)  (Supplementary  Fig.  10 ).  Notably,  many 400 
+
+of  the MAGs encoding denitrification and DNRA genes  also encoded  marker  genes  for 401 
+
+(partial) oxidation of sulfur  species , with  sqr  being the dominant sulfide oxidation gene 402 
+
+among the se  MAGs  (Supplementary Fig.  8). The  nosZ -possessing  Flavobacteriaceae  MAGs 403 
+
+encoded either  sqr  only for the oxidation of sulfur species or no sulfur oxidation genes at all. 404 
+
+405 
+
+N2O-reducing microbial community 406 
+
+To identify the drivers of sedimentary  N2O reduction, we phylogenetically characterized  the 407 
+
+NosZ  protein  sequences from the metagenom e dataset  (45 in total)  of the top 2 cm of 408 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+20 
+
+Scharendijke basin sediment . The community was dominated by  microorganisms encoding 409 
+
+clade II  nosZ  (77.8%  of all  nosZ ), of which 60%  was  associated  with  Flavobacteriia  (Fig. 4 ), 410 
+
+while  clade I  nosZ  sequences were primarily associated with  Alphaproteobacteria  (60%  of 411 
+
+clade I ). Several taxa, such as  Gammaproteobacteria  and  Myxococcia  were represented in 412 
+
+both clades. We did not detect sequences belonging to the non -canonical clade III. Although 413 
+
+the two most abundant individual genes , a gammaproteobacterial clade  I nosZ  (6.5 –13.8% of 414 
+
+total coverage) and a  flavobacterial  clade II  nosZ  (8.6 –13.8%) , remained relatively constant 415 
+
+with depth, the broader  Flavobacteriia  population peaked in abundance  in  the 0.0 –0.5 cm 416 
+
+surface layer. 417 
+
+418 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+21 
+
+419 
+
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint 22 
+
+Figure 4. Phylogenetic tree of the amino acid sequences of the 45  nosZ  genes detected in the 420 
+
+metagenome of the sediment  of  Scharendijke  basin  in spring, showing a clear separation 421 
+
+between clade I and II NosZ. The different colors indicate the corresponding taxonomic rank 422 
+
+at the class level of the organisms containing the NosZ sequences recovered from InterPro. 423 
+
+For the NosZ sequences from the Scharendijke  basin  sediment, the dark grey bubble size 424 
+
+corresponds to the relative abundance of the corresponding gene in reads per million (RPM) 425 
+
+for (from left to right) 0.0 -0.5, 0.5 -1.0, 1.0 -1.5 and 1.5 -2.0 cm depth. The light grey dots are 426 
+
+proportional to the bootstrap value found on the node closest to it (from 50 to 100). 427 
+
+428 
+
+Metat ranscriptom e analysis revealed similar patterns among the expressed  nosZ  genes  (50 in 429 
+
+total) . Expression was driven predominantly by clade II  nosZ , particularly from 430 
+
+Flavobacteriales , across both  depths  (0.0 –0.5  cm  and  1.0 –1.5 cm; Fig. 5). Conversely, 431 
+
+Rhodobacterales  represented the primary transcriptionally active taxon within clade I. 432 
+
+Notably,  gene expression  of  Flavobacteriales  was highest in the surface layer, whereas the 433 
+
+deeper section showed increased  nosZ  expression from  Rhodobacterales  (clade I  nosZ ) and 434 
+
+Gammaproteobacteria  (clade II  nosZ ).  The  expression levels  of the denitrification genes  in 435 
+
+TPM were 5 -15 times lower than the SO 42- reduction genes ( sat, aprAB, dsrAB ), reflecting 436 
+
+the  in situ  presence  of  NO 3- and SO 42- in spring .437 
+
+438 
+
+439 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+23 
+
+Figure 5. Relative abundance of the expressed  nosZ  genes (50 in total) grouped per clade 440 
+
+and taxon in the 0.0 -0.5 and 1.0 -1.5 cm sediment sections of Scharendijke basin. The relative 441 
+
+abundance was calculated from the sum of the transcripts per million (TPM) values per  nosZ 442 
+
+gene per taxon for the duplicates combined.  nosZ -expressing taxa that contributed less than 443 
+
+2% to the total  nosZ  expression in both sediment sections were grouped into ‘Others’, which 444 
+
+encompasses both clade I and II  nosZ . The different colors in the figure indicate the different 445 
+
+nosZ -harboring taxa at the order level, and the class level classification is indicated in grey 446 
+
+text. 447 
+
+448 
+
+Potential for  denitrification  under sulfidic conditions 449 
+
+Next, we aimed t o explore the effects of  sulfide  accumulation  in surface sediments,  as occur s450 
+
+during summer stratification at Scharendijke basin , on the N 2O cycling potential through 451 
+
+denitrification. To this end, we set up a  second series of batch incubations with sediment 452 
+
+from spring,  in which we  mimicked  the h igh porewater sulfide concentrations from summer 453 
+
+by adding  sulfide to final concentrations of 0.2, 1 and 4 mM.  In the presence of  0.2 and  1 mM 454 
+
+sulfide , NO 3- was consumed  faster  compared to  the  no -sulfide  treatment , and  NO 2- and  46 N2O455 
+
+accumulation  were  much lower  (Fig. 6 a, b ; Supplementary  Fig. 1 1a). Concomitantly,  44 N2O456 
+
+was depleted  faster  in the 0.2 and 1 mM treatments than in the no -sulfide treatment ( Fig.  6d ;457 
+
+Supplementary  Fig.  11b).  30 N2 accumulated  in  the  no -sulfide,  0.2 and 1 mM treatments  upon 458 
+
+> 15
+
+NO 3--supplemen tation  (Fig.  6c).  NH 4+ concentrations increased  slowly  over the course of 459 
+
+the incubations for  these  three  treatment s, particularly at 1 mM sulfide  (Supplementary Fig. 460 
+
+11), indicative of DNRA . At 0.2 and 1 mM,  H2S concentrations decreased  when NO 3- and 461 
+
+N2O were  still present . H2S was not  detected  in the no -sulfide control .462 
+
+463 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+24 
+
+In incubations with  4 mM sulfide,  denitrification  activity mostly ceased. The observed NO 3-
+
+464 
+
+consumption was much  slower than for the other treatments  and  neither  accumulation of 465 
+
+> 46
+
+N2O and  30 N2 nor reduction of  supplemented  44 N2O was observed ( Fig.  6). 466 
+
+467 
+
+468 
+
+Figure 6. Concentrations of dissolved NO 3- (red; a) and headspace  46 N2O (light blue; b),  30 N2469 
+
+(purple; c) and  44 N2O (blue; d) over time in anoxic incubations with sediment from 470 
+
+Scharendijke from spring from 1.0 -1.5 cm depth amended with 200 μM Na 15 NO 3 (a -c) or 471 
+
+0.5% N 2O (d) and various concentrations of Na 2S. Error bars indicate the standard deviation 472 
+
+between the measurements of duplicate incubation bottles. 473 
+
+474 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+25 
+
+Discussion 475 
+
+476 
+
+The prevailing redox regime in coastal sediments can strongly impact N 2O cycling by 477 
+
+stimulating or inhibiting processes that can lead to net N 2O production and consumption 478 
+
+(Cheung et al., 2025; Hylén et al., 2022; Jameson et al., 2021) . In  eutrophic  and  seasonally 479 
+
+stratified  coastal  systems like the Scharendijke basin  studied here , these  redox conditions  are 480 
+
+dictated by seasonal  changes in  O2 availability  and sulfide accumulation  (Żygadłowska et al., 481 
+
+2023) . We therefore combined geochemical profiling , batch incubations and metagenome and 482 
+
+metatranscriptome analyses  to evaluate  the  effects of O 2 and sulfide  on  microbial  N2O483 
+
+dynamics in surface sediments . The i ncubations  were performed  to study N 2O formation and 484 
+
+consumption potential  and to link this potential to the seasonally changing geochemical 485 
+
+conditions of the surface  sediments  in  Scharendijke  basin , rather than  to  determine  in 486 
+
+situ  rates.  Combined,  we  demonstrate  sedimentary  potential for  microbial  N2O cycling  and 487 
+
+accumulation  through denitrification , which  is  strongly modulated by substrate  availability 488 
+
+(O 2, NO 3-) and sulfide  concentration .489 
+
+490 
+
+Sedimentary N 2O dynamics  during  oxygenated bottom  water conditions  in spring 491 
+
+Despite oxygenated bottom waters,  the  surface sediments  of Scharendijke basin  showed  net 492 
+
+N2O consumption  in  spring , likely driven by a specialized community of clade II  nosZ -493 
+
+carrying  Flavobacteriia  that effectively reduce N 2O, similar to brackish and permeable 494 
+
+sediments  (Marchant et al., 2018; Nakagawa et al., 2019; Nguyen -Dinh et al., 2025) .495 
+
+However, our batch incubations and metagenome and metatranscriptome analyses revealed 496 
+
+that  the  lack of net N 2O production  is not due to  deficient  production  capability,  but rather 497 
+
+substrate limitation. Indeed, O 2 and NO 3-, substrates for the processes of nitrification and 498 
+
+denitrification which can  both  lead to N 2O production, were rapidly depleted within the top 499 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+26 
+
+millimeters of the sediment. Nonetheless, the genetic machinery for N 2O production was 500 
+
+highly active in spring, with transcripts for nitrification ( amoA , hao, nxrA ) and denitrification 501 
+
+(napA , narG, nirK, nirS, norB ) detected even in layers devoid of O 2 and NO 3-, suggesting 502 
+
+constitutive gene expression or active cycling of small substrate pools  (Baumann et al., 2024; 503 
+
+Marchant et al., 2017; Ruff et al., 2024) . Moreover, batch incubations revealed potential for 504 
+
+N2O accumulation upon substrate addition but not in the no -substrate controls.  Potential for 505 
+
+N2O accumulation through denitrification was observed in the anoxic incubations 506 
+
+supplemented with NO 3- or NO 2-, supported by t he observed gene abundance and  gene 507 
+
+expression ratios favoring the N 2O-producing denitrification steps over the N 2O-reduction 508 
+
+step , indicat ing  a genetic preference for N 2O accumulation  (Roothans et al., 2025) . Although 509 
+
+we only considered  norB  as genetic ma rker for NO reduction to N 2O,  numerous NO 510 
+
+reductase families have been identified , and t he abundance and expression of  norB  is 511 
+
+therefore  expected to be an underestimate of the total abundance and expression of NO 512 
+
+reductase genes.  While we did not detect net N 2O production in our fully oxic batch 513 
+
+incubations,  N2O production from nitrification is known to be enhanced by low O 2 levels 514 
+
+(Barnes & Upstill -Goddard, 2018; Goreau et al., 1980; Tang et al., 2025; Zhu et al., 2013) 515 
+
+and may therefore still occur  in situ  along the sharp O 2 gradient . Abiotic N 2O production was 516 
+
+negligible at Scharendijke basin  (Rigutto et al., 2025) .517 
+
+518 
+
+The effects of sulfide on sedimentary denitrification potential 519 
+
+The transition to summer  stratification  introduces sulfide as a  potential  additional  control on 520 
+
+N2O dynamics  in the surface sediments  of  Scharendijke basin . High -resolution N 2O depth 521 
+
+profiling could not be conducted on -board  in summer , due to H 2S affecting the N 2O sensor 522 
+
+sensitivity  and therefore the  N2O concentrations in the  sediment  in summer  are  unknown .523 
+
+However , the potential impact of  sulfide  on the N 2O cycling potential through denitrification 524 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+27 
+
+was  assessed  in  a second series of  batch incubations  by  supplementing  sediment from spring 525 
+
+with sulfide  at concentrations that are relevant in summer  in situ .526 
+
+527 
+
+Our results re veal a dual  effect of sulfide  on denitrification , as sulfide  acts  as  a stimulant  at 528 
+
+moderate concentrations  (0.2 -1 mM)  and as  an  inhibitor  at high concentrations  (4 mM) . At 529 
+
+concentrations u p to  1 mM,  sulfide enhanced the consumption of  N2O,  likely by  serving as 530 
+
+electron donor for  autotrophic denitrification  (Cardoso et al., 2006; Shao et al., 2010; Wang 531 
+
+et al., 2026) , also  reflected by the  microbial community’s  metagenomic  potential for sulfur 532 
+
+oxidation . However,  at 4 mM sulfide , an environmentally relevant concentration at 533 
+
+Scharendijke basin  (Klomp et al., 2025; Żygadłowska et al., 2023) , we  no longer  observed 534 
+
+N2O production and consumption.  This indicates broad metabolic inhibition,  for example due 535 
+
+to  the immobilization of metal cofactors in key enzymes like NosZ and nitrate reductase  (Fu 536 
+
+et al., 2018; Manconi et al., 2006) . Moreover,  the  enhanced formation of NH 4+ at 1 mM 537 
+
+sulfide compared to 0 and 0.2 mM sulfide suggests an additional role of DNRA  in the 538 
+
+presence of sulfide.  DNRA -performing microorganisms are indeed considered more resistant 539 
+
+to sulfide than denitrifiers  (Caffrey et al., 2019) , and s timulation of DNRA  in the presence of 540 
+
+sulfide  indirect ly  inhi bits  N2O production through denitrification  via  competition  for NO x541 
+
+(An & Gardner, 2002; Brunet & Garcia -Gil, 1996; Murphy et al., 2020) . Although these 542 
+
+findings suggest that the onset of euxinia does not immediately collapse the 543 
+
+sediment’s  capacity for N 2O cycling, limitation of O 2 and  NO 3- required for N 2O production 544 
+
+from nitrification and denitrification is even more severe in summer  (Klomp et al., 2025; Sun 545 
+
+et al., 2026; Żygadłowska et al., 2023) . Consequently,  during peak sulfidic conditions, 546 
+
+sedimentary N 2O cycling could be halted entirely .547 
+
+548 
+
+Implications  for N 2O emissions from  coastal  eutrophic sediments 549 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+28 
+
+Combined,  we  show that coastal sedimentary N 2O dynamics strongly depend on substrate 550 
+
+availability  and sulfide concentrations , hi ghlighting the  redox -associated mechanisms  that 551 
+
+regulate  N2O dynamics  in eutrophic coastal sediments . Paradoxically,  sediments  at 552 
+
+oligotrophic  (Jameson et al., 2024; Maher et al., 2016)  as well as highly eutrophic sites ( this 553 
+
+study;  Foster & Fulweiler, 2016)  are characterized by net N 2O consumption  due to the 554 
+
+limited availability of  inorganic nitrogen  in the form of NO x. In fact, s edimentary N 2O555 
+
+production is expected to peak at low O₂ and high NO x concentrations  (Murray et al., 2015) 556 
+
+as indicated by enhanced N 2O production upon  O2 limitation  (Jameson et al., 2021)  and 557 
+
+substrate addition  (Jameson et al., 2024; Meyer et al., 2008) . Concomitantly,  reoxygenation 558 
+
+of anoxic sediments  in the eutrophic Baltic Sea  stimulated  sedimentary  N2O production 559 
+
+(Hylén et al., 2022) . Yet,  the  net impact  of the sedimentary  N2O dynamics  on sediment -water 560 
+
+N2O fluxes  not only  depends on  substrate availability but also  on  the metabolic capacity of 561 
+
+the endogenous microbial community and  the depth at which N 2O production and 562 
+
+consumption occur  (Meyer et al., 2008) . Nonetheless,  these combined  findings suggest that 563 
+
+the restoration of highly eutrophic systems will  (temporarily) stimulate sedimentary N 2O564 
+
+production,  which could impact the coastal  N2O budget .565 
+
+566 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+29 
+
+Acknowledgements 567 
+
+568 
+
+This research was supported by ERC Synergy Grant MARIX 854088. We thank the  captain 569 
+
+and  crew of  RV  Navicula  and  RV  Wim Wolff  and  all M ARIX  team members  and  cruise 570 
+
+participants  for their  support during the sampling campaigns . We are grateful to  the General 571 
+
+Laboratory  of  the Faculty of Science of  Radboud University for analytical assistance.  Large 572 
+
+language models and AI -assisted editorial tools, specifically Grammarly and Google Gemini 573 
+
+Advanced, were utilized to optimize the manuscript’s linguistic precision, syntactic flow, and 574 
+
+conciseness. The authors critically reviewed, revised, and verified all AI -generated output, 575 
+
+retaining full authorship and sole responsibility for the final content. 576 
+
+577 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+30 
+
+References 578 
+
+Æsøy, A., Ødegaard, H., & Bentzen, G. (1998).  The effect of sulphide and organic matter 579 
+
+on the nitrification activity in a biofilm process.  Water Science and Technology ,580 
+
+37 (1), 115 –122. https://doi.org/https://doi.org/10.1016/S0273 -1223(97)00760 -9581 
+
+An, S., & Gardner, W. (2002). Dissimilatory nitrate reduction to ammonium (DNRA) as a 582 
+
+nitrogen link, versus denitrification as a sink in a shallow estuary (Laguna 583 
+
+Madre/Baffin Bay, Texas).  Marine Ecology Progress Series , 237 , 41 –50. 584 
+
+https://doi.org/10.3354/meps237041 585 
+
+Bange, H. W., Arévalo -Martínez, D. L., De La Paz, M., Farías, L., Kaiser, J., Kock, A., Law, 586 
+
+C. S., Rees, A. P., Rehder, G., Tortell, P. D., Upstill -Goddard, R. C., & Wilson, S. T. 587 
+
+(2019). A Harmonized Nitrous Oxide (N2O) Ocean Observation Network for the 588 
+
+21st Century.  Frontiers in Marine Science , 6, 157. 589 
+
+https://doi.org/10.3389/fmars.2019.00157 590 
+
+Barnes, J., & Upstill -Goddard, R. C. (2018). The denitrification paradox: The role of O2 in 591 
+
+sediment N2O production.  Estuarine, Coastal and Shelf Science , 200 , 270 –276. 592 
+
+https://doi.org/10.1016/j.ecss.2017.11.018 593 
+
+Baumann, K. B. L., Mazzoli, A., Salazar, G., Ruscheweyh, H. -J., Müller, B., Niederdorfer, 594 
+
+R., Sunagawa, S., Lever, M. A., Lehmann, M. F., & Bürgmann, H. (2024). 595 
+
+Metagenomic and  -transcriptomic analyses of microbial nitrogen transformation 596 
+
+potential, and gene expression in Swiss lake sediments.  ISME Communications ,597 
+
+4(1), ycae110. https://doi.org/10.1093/ismeco/ycae110 598 
+
+Bejarano Ortiz, D. I., Thalasso, F., Cuervo López, F. D. M., & Texier, A. (2013).  Inhibitory 599 
+
+effect of sulfide on the nitrifying respiratory process.  Journal of Chemical 600 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+31 
+
+Technology & Biotechnology , 88 (7), 1344 –1349. 601 
+
+https://doi.org/10.1002/jctb.3982 602 
+
+Breitburg, D., Levin, L. A., Oschlies, A., Grégoire, M., Chavez, F. P., Conley, D. J., 603 
+
+Garçon, V., Gilbert, D., Gutiérrez, D., Isensee, K., Jacinto, G. S., Limburg, K. E., 604 
+
+Montes, I., Naqvi, S. W. A., Pitcher, G. C., Rabalais, N. N., Roman, M. R., Rose, K. 605 
+
+A., Seibel, B. A., … Zhang, J. (2018). Declining oxygen in the global ocean and 606 
+
+coastal waters.  Science , 359 (6371). https://doi.org/10.1126/science.aam7240 607 
+
+Bruckner, C. G., Mammitzsch, K., Jost, G., Wendt, J., Labrenz, M., & Jürgens, K. (2013). 608 
+
+Chemolithoautotrophic denitrification of epsilonproteobacteria in marine 609 
+
+pelagic redox gradients.  Environmental Microbiology , 15 (5), 1505 –1513. 610 
+
+https://doi.org/10.1111/j.1462 -2920.2012.02880.x 611 
+
+Brunet, R. C., & Garcia -Gil, L. J. (1996).  Sulfide -induced dissimilatory nitrate reduction 612 
+
+to ammonia in anaerobic freshwater sediments.  FEMS Microbiology Ecology ,613 
+
+21 (2), 131 –138. https://doi.org/10.1111/j.1574 -6941.1996.tb00340.x 614 
+
+Burdige, D. J. (2006).  Geochemistry of Marine Sediments . Princeton University Press. 615 
+
+https://doi.org/10.2307/j.ctv131bw7s.7 616 
+
+Caffrey, J. M., Bonaglia, S., & Conley, D. J. (2019).  Short exposure to oxygen and sulfide 617 
+
+alter nitrification, denitrification, and DNRA activity in seasonally hypoxic 618 
+
+estuarine sediments.  FEMS Microbiology Letters , 366 (1), 1 –10. 619 
+
+https://doi.org/10.1093/femsle/fny288 620 
+
+Caranto, J. D., Vilbert, A. C., & Lancaster, K. M. (2016).  Nitrosomonas europaea 621 
+
+cytochrome P460 is a direct link between nitrification and nitrous oxide 622 
+
+emission.  Proceedings of the National Academy of Sciences , 113 (51), 14704 –623 
+
+14709. https://doi.org/10.1073/pnas.1611051113 624 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+32 
+
+Cardoso, R. B., Sierra -Alvarez, R., Rowlette, P., Flores, E. R., Gómez, J., & Field, J. A. 625 
+
+(2006).  Sulfide oxidation under chemolithoautotrophic denitrifying conditions. 626 
+
+Biotechnology and Bioengineering , 95 (6), 1148 –1157. 627 
+
+https://doi.org/10.1002/bit.21084 628 
+
+Cheung, H. L. S., Zilius, M., Politi, T., Lorre, E., Vybernaite ‐Lubiene, I., Santos, I. R., & 629 
+
+Bonaglia, S. (2025).  Nitrate ‐Driven Eutrophication Supports High Nitrous Oxide 630 
+
+Production and Emission in Coastal Lagoons.  Journal of Geophysical Research: 631 
+
+Biogeosciences , 130 (4), e2024JG008510. 632 
+
+https://doi.org/10.1029/2024JG008510 633 
+
+Cline, J. D. (1969). Spectrophotometric determination of hydrogen sulfide in natural 634 
+
+waters 1.  Limnology and Oceanography , 14 (3), 454 –458. 635 
+
+Dalcin Martins, P., De Monlevad, J. P. R. C., Echeveste Medrano, M. J., Lenstra, W. K., 636 
+
+Wallenius, A. J., Hermans, M., Slomp, C. P., Welte, C. U., Jetten, M. S. M., & Van 637 
+
+Helmond, N. A. G. M. (2024).  Sulfide Toxicity as Key Control on Anaerobic 638 
+
+Oxidation of Methane in Eutrophic Coastal Sediments.  Environmental Science & 639 
+
+Technology , 58 (26), 11421 –11435. https://doi.org/10.1021/acs.est.3c10418 640 
+
+Dalsgaard, T., Stewart, F. J., Thamdrup , B., De Brabandere, L., Revsbech, N. P., Ulloa, 641 
+
+O., Canfield, D. E., & DeLong, E. F. (2014). Oxygen at Nanomolar Levels 642 
+
+Reversibly Suppresses Process Rates and Gene Expression in Anammox and 643 
+
+Denitrification in the Oxygen Minimum Zone off Northern Chile.  mBio , 5(6), 644 
+
+e01966 -14. https://doi.org/10.1128/mBio.01966 -14 645 
+
+Egger, M., Lenstra, W., Jong, D., Meysman, F. J. R., Sapart, C. J., Van Der Veen, C., 646 
+
+Röckmann, T., Gonzalez, S., & Slomp, C. P. (2016).  Rapid sediment 647 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+33 
+
+accumulation results in high methane effluxes from coastal sediments.  PLoS 648 
+
+ONE , 11 (8), 1 –22. https://doi.org/10.1371/journal.pone.0161609 649 
+
+Etchebehere, C., & Tiedje, J. (2005).  Presence of Two Different Active  nirS  Nitrite 650 
+
+Reductase Genes in a Denitrifying  Thauera  sp. From a High -Nitrate -Removal -651 
+
+Rate Reactor.  Applied and Environmental Microbiology , 71 (9), 5642 –5645. 652 
+
+https://doi.org/10.1128/AEM.71.9.5642 -5645.2005 653 
+
+Foster, S. Q., & Fulweiler, R. W. (2016).  Sediment Nitrous Oxide Fluxes Are Dominated 654 
+
+by Uptake in a Temperate Estuary.  Frontiers in Marine Science , 3.655 
+
+https://doi.org/10.3389/fmars.2016.00040 656 
+
+Fu, L. -H., Wei, Z. -Z., Hu, K. -D., Hu, L. -Y., Li, Y. -H., Chen, X. -Y., Han, Z., Yao, G. -F., & 657 
+
+Zhang, H. (2018). Hydrogen sulfide inhibits the growth of Escherichia coli 658 
+
+through oxidative damage.  Journal of Microbiology , 56 (4), 238 –245. 659 
+
+https://doi.org/10.1007/s12275 -018 -7537 -1660 
+
+Galán, A., Faúndez, J., Thamdrup, B., Santibáñez, J. F., & Farías, L. (2014). Temporal 661 
+
+dynamics of nitrogen loss in the coastal upwelling ecosystem off central Chile: 662 
+
+Evidence of autotrophic denitrification through sulfide oxidation.  Limnology and 663 
+
+Oceanography , 59 (6), 1865 –1878. https://doi.org/10.4319/lo.2014.59.6.1865 664 
+
+Goreau, T. J., Kaplan, W. A., Wofsy, S. C., McElroy, M. B., Valois, F. W., & Watson, S. W. 665 
+
+(1980). Production of NO 2- and N 2O by Nitrifying Bacteria at Reduced 666 
+
+Concentrations of Oxygen.  Applied and Environmental Microbiology , 40 (3), 526 –667 
+
+532. https://doi.org/10.1128/aem.40.3.526 -532.1980 668 
+
+Goyal, S. S., Rains, D. W., & Hufaker, R. C. (1988). Determination of Ammonium Ion by 669 
+
+Fluorometry or Spectrophotometry after On -Line Derivatization with o -670 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+34 
+
+Phthalaldehyde.  Analytical Chemistry , 60 (2), 175 –179. 671 
+
+https://doi.org/10.1021/ac00153a016 672 
+
+Hagens, M., Slomp, C. P., Meysman, F. J. R., Seitaj, D., Harlay, J., Borges, A. V., & 673 
+
+Middelburg, J. J. (2015). Biogeochemical processes and buffering capacity 674 
+
+concurrently affect acidification in a seasonally hypoxic coastal marine basin. 675 
+
+Biogeosciences , 12 (5), 1561 –1583. https://doi.org/10.5194/bg -12 -1561 -2015 676 
+
+Hallin, S., Philippot, L., Löffler, F. E., Sanford, R. A., & Jones, C. M. (2018).  Genomics 677 
+
+and Ecology of Novel N2O -Reducing Microorganisms.  Trends in Microbiology ,678 
+
+26 (1), 43 –55. https://doi.org/10.1016/j.tim.2017.07.003 679 
+
+He, G., Wang, W., Chen, G., Xie, Y., Parks, J. M., Davin, M. E., Hettich, R. L., 680 
+
+Konstantinidis, K. T., & Löffler, F. E. (2025). A novel bacterial protein family that 681 
+
+catalyses nitrous oxide reduction.  Nature . https://doi.org/10.1038/s41586 -025 -682 
+
+09401 -4683 
+
+Hylén, A., Bonaglia, S., Robertson, E., Marzocchi, U., Kononets, M., & Hall, P. O. J. 684 
+
+(2022). Enhanced benthic nitrous oxide and ammonium production after natural 685 
+
+oxygenation of long ‐term anoxic sediments.  Limnology and Oceanography ,686 
+
+67 (2), 419 –433. https://doi.org/10.1002/lno.12001 687 
+
+Jameson, B. D., Berg, P., Grundle, D. S., Stevens, C. J., & Juniper, S. K. (2021). 688 
+
+Continental margin sediments underlying the  NE  Pacific oxygen minimum zone 689 
+
+are a source of nitrous oxide to the water column.  Limnology and Oceanography 690 
+
+Letters , 6(2), 68 –76. https://doi.org/10.1002/lol2.10174 691 
+
+Jameson, B. D., Lopez, M. L. D., Bonderud, M., Stevens, C. J., Juniper, S. K., Helbing, C. 692 
+
+C., & Grundle, D. S. (2024). High Abundances and Expression Levels of Atypical, 693 
+
+Non ‐Denitrifier N 2 O Reductases Drive Strong Microbial N 2 O Consumption Rates 694 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+35 
+
+in a Minimally Impacted Mangrove Stand.  Journal of Geophysical Research: 695 
+
+Biogeosciences , 129 (6), e2023JG007805. 696 
+
+https://doi.org/10.1029/2023JG007805 697 
+
+Jäntti, H., & Hietanen, S. (2012). The effects of hypoxia on sediment nitrogen cycling in 698 
+
+the Baltic Sea.  Ambio , 41 (2), 161 –169. https://doi.org/10.1007/s13280 -011 -699 
+
+0233 -6700 
+
+Joye, S. B., & Hollibaugh, J. T. (1995). Influence of Sulfide Inhibition of Nitrification on 701 
+
+Nitrogen Regeneration in Sediments.  Science , 270 (5236), 623 –625. 702 
+
+https://doi.org/10.1126/science.270.5236.623 703 
+
+Klomp, R., Żygadłowska, O. M., Jetten, M. S. M., Oldham, V. E., Van Helmond, N. A. G. 704 
+
+M., Slomp, C. P., & Lenstra, W. K. (2025).  Dissolved Mn(III) is a key redox 705 
+
+intermediate in sediments of a seasonally euxinic coastal basin. 706 
+
+Biogeosciences , 22 (3), 751 –765. https://doi.org/10.5194/bg -22 -751 -2025 707 
+
+Kozlowski, J. A., Price, J., & Stein, L. Y. (2014). Revision of N 2 O-Producing Pathways in 708 
+
+the Ammonia -Oxidizing Bacterium Nitrosomonas europaea ATCC 19718. 709 
+
+Applied and Environmental Microbiology , 80 (16), 4930 –4935. 710 
+
+https://doi.org/10.1128/AEM.01061 -14 711 
+
+Kozlowski, J. A., Stieglmeier, M., Schleper, C., Klotz, M. G., & Stein, L. Y. (2016). 712 
+
+Pathways and key intermediates required for obligate aerobic ammonia -713 
+
+dependent chemolithotrophy in bacteria and Thaumarchaeota.  The ISME 714 
+
+Journal , 10 (8), 1836 –1845. https://doi.org/10.1038/ismej.2016.2 715 
+
+Kuliński, K., Rehder, G., Asmala, E., Bartosova , A., Carstensen, J., Gustafsson, B., Hall, 716 
+
+P. O. J., Humborg, C., Jilbert, T., Jürgens, K., Meier, H. E. M., Müller -Karulis, B., 717 
+
+Naumann, M., Olesen, J. E., Savchuk, O., Schramm, A., Slomp, C. P., Sofiev, M., 718 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+36 
+
+Sobek, A., … Undeman, E. (2022). Biogeochemical functioning of the Baltic Sea. 719 
+
+Earth System Dynamics , 13 (1), 633 –685. https://doi.org/10.5194/esd -13 -633 -720 
+
+2022 721 
+
+Laureni, M., Corbera -Rubio, F., Kim, D. D., Browne, S., Roothans, N., Weissbrodt, D. G., 722 
+
+Olavaria, K., De Jonge, N., Yoon, S., Pabst, M., & Van Loosdrecht, M. C. M. 723 
+
+(2025). Selective enrichment of high -affinity clade II N2O -reducers in a mixed 724 
+
+culture.  ISME Communications , 5(1), ycaf022. 725 
+
+https://doi.org/10.1093/ismeco/ycaf022 726 
+
+Leon -Palmero, E., Morales -Baquero, R., Thamdrup, B., Löscher, C., & Reche, I. (2025). 727 
+
+Sunlight drives the abiotic formation of nitrous oxide in fresh and marine waters. 728 
+
+Science , 387 (6739), 1198 –1203. https://doi.org/10.1126/science.adq0302 729 
+
+Li, S., Pang, Y., & Ji, G. (2021).  Increase of N2O production during nitrate reduction after 730 
+
+long -term sulfide addition in lake sediment microcosms.  Environmental 731 
+
+Pollution , 291 , 118231. https://doi.org/10.1016/j.envpol.2021.118231 732 
+
+Maher, D. T., Sippo, J. Z., Tait, D. R., Holloway, C., & Santos, I. R. (2016).  Pristine 733 
+
+mangrove creek waters are a sink of nitrous oxide.  Scientific Reports , 6(1), 734 
+
+25701. https://doi.org/10.1038/srep25701 735 
+
+Manconi, I., Van Der Maas, P., & Lens, P. (2006). Effect of copper dosing on sulfide 736 
+
+inhibited reduction of nitric and nitrous oxide.  Nitric Oxide , 15 (4), 400 –407. 737 
+
+https://doi.org/10.1016/j.niox.2006.04.262 738 
+
+Marchant, H. K., Ahmerkamp, S., Lavik, G., Tegetmeyer, H. E., Graf, J., Klatt, J. M., 739 
+
+Holtappels, M., Walpersdorf, E., & Kuypers, M. M. M. (2017).  Denitrifying 740 
+
+community in coastal sediments performs aerobic and anaerobic respiration 741 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+37 
+
+simultaneously.  The ISME Journal , 11 (8), 1799 –1812. 742 
+
+https://doi.org/10.1038/ismej.2017.51 743 
+
+Marchant, H. K., Tegetmeyer, H. E., Ahmerkamp, S., Holtappels, M., Lavik, G., Graf, J., 744 
+
+Schreiber, F., Mussmann, M., Strous, M., & Kuypers, M. M. M. (2018).  Metabolic 745 
+
+specialization of denitrifiers in permeable sediments controls N 2 O emissions. 746 
+
+Environmental Microbiology , 20 (12), 4486 –4502. https://doi.org/10.1111/1462 -747 
+
+2920.14385 748 
+
+Meyer, R. L., Allen, D. E., & Schmidt, S. (2008).  Nitrification and denitrification as 749 
+
+sources of sediment nitrous oxide production: A microsensor approach.  Marine 750 
+
+Chemistry , 110 (1 –2), 68 –76. https://doi.org/10.1016/j.marchem.2008.02.004 751 
+
+Miranda, K. M., Espey, M. G., & Wink, D. A. (2001). A Rapid, Simple Spectrophotometric 752 
+
+Method for Simultaneous Detection of Nitrate and Nitrite.  Nitric Oxide , 5(1), 62 –753 
+
+71. https://doi.org/10.1006/niox.2000.0319 754 
+
+Murphy, A. E., Bulseco, A. N., Ackerman, R., Vineis, J. H., & Bowen, J. L. (2020). Sulphide 755 
+
+addition favours respiratory ammonification (DNRA) over complete 756 
+
+denitrification and alters the active microbial community in salt marsh 757 
+
+sediments.  Environmental Microbiology , 22 (6), 2124 –2139. 758 
+
+https://doi.org/10.1111/1462 -2920.14969 759 
+
+Murray, R. H., Erler , D. V., & Eyre, B. D. (2015). Nitrous oxide fluxes in estuarine 760 
+
+environments: Response to global change.  Global Change Biology , 21 (9), 3219 –761 
+
+3245. https://doi.org/10.1111/gcb.12923 762 
+
+Nakagawa, T., Tsuchiya , Y., Ueda, S., Fukui, M., & Takahashi, R. (2019).  Eelgrass 763 
+
+Sediment Microbiome as a Nitrous Oxide Sink in Brackish Lake Akkeshi, Japan. 764 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+38 
+
+Microbes and Environments , 34 (1), 13 –22. 765 
+
+https://doi.org/10.1264/jsme2.ME18103 766 
+
+Nguyen -Dinh, T., Hutchinson, T., Ricci, F., Prayitno, H., Jimenez, L., Eate, V., Leung, P. 767 
+
+M., Lappan, R., Yoon, S., Wong, W. W., Cook, L. M., & Greening, C. (2025). 1 768 
+
+Flavobacteria buffer nitrous oxide emissions from 2 partial denitrifiers in coastal 769 
+
+sediments.  bioRxiv .770 
+
+Otte, J. M., Blackwell, N., Ruser, R., Kappler, A., Kleindienst, S., & Schmidt, C. (2019). 771 
+
+N2O formation by nitrite -induced (chemo)denitrification in coastal marine 772 
+
+sediment.  Scientific Reports , 9(1), 10691 –10691. 773 
+
+https://doi.org/10.1038/s41598 -019 -47172 -x774 
+
+Pan, Y., Ye, L., & Yuan, Z. (2013). Effect of H 2 S on N 2 O Reduction and Accumulation 775 
+
+during Denitrification by Methanol Utilizing Denitrifiers.  Environmental Science & 776 
+
+Technology , 130710143655002. https://doi.org/10.1021/es401632r 777 
+
+Prather, M. J., Hsu, J., DeLuca, N. M., Jackman, C. H., Oman, L. D., Douglass, A. R., 778 
+
+Fleming, E. L., Strahan, S. E., Steenrod, S. D., Søvde, O. A., Isaksen, I. S. A., 779 
+
+Froidevaux, L., & Funke, B. (2015). Measuring and modeling the lifetime of 780 
+
+nitrous oxide including its variability.  Journal of Geophysical Research: 781 
+
+Atmospheres , 120 (11), 5693 –5705. https://doi.org/10.1002/2015JD023267 782 
+
+Rasigraf, O., Schmitt, J., Jetten, M. S. M., & Lüke, C. (2017). Metagenomic potential for 783 
+
+and diversity of N -cycle driving microorganisms in the Bothnian Sea sediment. 784 
+
+MicrobiologyOpen , 6(4), 1 –13. https://doi.org/10.1002/mbo3.475 785 
+
+Ravishankara, A. R., Daniel, J. S., & Portmann, R. W. (2009).  Nitrous Oxide (N 2O): The 786 
+
+Dominant Ozone -Depleting Substance Emitted in the 21st Century.  Science ,787 
+
+326 (5949), 123 –125. https://doi.org/10.1126/science.1176985 788 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+39 
+
+Resplandy, L., Hogikyan, A., Müller, J. D., Najjar, R. G., Bange, H. W., Bianchi, D., 789 
+
+Weber, T., Cai, W.  ‐J., Doney, S. C., Fennel, K., Gehlen, M., Hauck, J., Lacroix, F., 790 
+
+Landschützer, P., Le Quéré, C., Roobaert, A., Schwinger, J., Berthet, S., Bopp, L., 791 
+
+… Regnier, P. (2024). A Synthesis of Global Coastal Ocean Greenhouse Gas 792 
+
+Fluxes.  Global Biogeochemical Cycles , 38 (1), e2023GB007803. 793 
+
+https://doi.org/10.1029/2023GB007803 794 
+
+Rigutto, I. M. L., Sburlan, Ş. C., De Bont, L. W. P., Berben, T., De Graaf, R. M., Slomp, C. 795 
+
+P., & Jetten, M. S. M. (2025). Sediments from a seasonally euxinic coastal 796 
+
+ecosystem show high nitrogen cycling potential.  Environmental Microbiology ,797 
+
+27 (7), 27:e70139. https://doi.org/10.1101/2025.02.26.640368 798 
+
+Roothans, N., Pabst, M., van Diemen, M., Herrera Mexicano, C., Zandvoort, M., Abeel, 799 
+
+T., van Loosdrecht, M. C. M., & Laureni, M. (2025).  Long -term multi -meta -omics 800 
+
+resolves the ecophysiological controls of seasonal N2O emissions during 801 
+
+wastewater treatment.  Nature Water , 3, 590 –604. 802 
+
+Ruff, S. E., Schwab, L., Vidal, E., Hemingway, J., Kraft, B., & Murali, R. (2024). 803 
+
+Widespread occurrence of dissolved oxygen anomalies, aerobic microbes, and 804 
+
+oxygen -producing metabolic pathways in apparently anoxic environments. 805 
+
+FEMS Microbiology Ecology , 100 (11), fiae132. 806 
+
+https://doi.org/10.1093/femsec/fiae132 807 
+
+Senga, Y., Mochida, K., Fukumori, R., Okamoto, N., & Seike, Y. (2006). N2O 808 
+
+accumulation in estuarine and coastal sediments: The influence of H2S on 809 
+
+dissimilatory nitrate reduction.  Estuarine, Coastal and Shelf Science , 67 (1 –2), 810 
+
+231 –238. https://doi.org/10.1016/j.ecss.2005.11.021 811 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+40 
+
+Shao, M. -F., Zhang, T., & Fang, H. H. -P. (2010).  Sulfur -driven autotrophic denitrification: 812 
+
+Diversity, biochemistry, and engineering applications.  Applied Microbiology and 813 
+
+Biotechnology , 88 (5), 1027 –1042. https://doi.org/10.1007/s00253 -010 -2847 -1814 
+
+Solórzano, L. (1969). Determination of Ammonia in Natural Waters by the 815 
+
+Phenolhypochlorite Method.  Limnology and Oceanography , 14 (5), 799 –801. 816 
+
+Stieglmeier, M., Mooshammer, M., Kitzler, B., Wanek, W., Zechmeister -Boltenstern, S., 817 
+
+Richter, A., & Schleper, C. (2014).  Aerobic nitrous oxide production through N -818 
+
+nitrosating hybrid formation in ammonia -oxidizing archaea.  The ISME Journal ,819 
+
+8(5), 1135 –1146. https://doi.org/10.1038/ismej.2013.220 820 
+
+Sun, J., Yang, X., Yu, L., Zhang, Q., Yung, C. C. M., & Li, J. (2026). Hypoxia Decreases 821 
+
+Nitrogen Removal in Coastal Marine Sediments.  Environmental Science & 822 
+
+Technology , 60 (14), 10763 –10774. https://doi.org/10.1021/acs.est.5c04877 823 
+
+Tang, W., Fortin, S. G., Intrator, N., Lee, J. A., Kunes, M. A., Jayakumar, A., & Ward, B. B. 824 
+
+(2025). Contrasting Oxygen Sensitivities of Ammonia Oxidation and Nitrous 825 
+
+Oxide Production in Estuarine Waters.  Environmental Science & Technology ,826 
+
+acs.est.5c06142. https://doi.org/10.1021/acs.est.5c06142 827 
+
+Van Helmond, N. A. G. M., Żygadłowska, O. M., Lenstra, W. K., Klomp, R., Humborg, C., 828 
+
+Conley, D. J., Jetten, M. S. M., & Slomp, C. P. (2025). Sedimentary vanadium 829 
+
+depletion under sulfidic conditions: Implications for (paleo)redox proxy 830 
+
+applications.  Geochimica et Cosmochimica Acta , 393 , 238 –253. 831 
+
+https://doi.org/10.1016/j.gca.2025.01.022 832 
+
+Wang, S., Li, S., Lyu, H., Zhi, W., Dang, Z., Guo, R., Zhu, X., & Ji, G. (2026). Quantifying 833 
+
+the Contribution of Cryptic Sulfide -Driven Autotrophic Denitrification to N 2 O834 
+
+Production in a Seasonally Hypoxic River -Reservoir System.  Environmental 835 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+41 
+
+Science & Technology , acs.est.6c03313. 836 
+
+https://doi.org/10.1021/acs.est.6c03313 837 
+
+Yoon, S., Song, M. J., & Laureni, M. (2025).  A tale of two nitrous oxide reductases: A 838 
+
+cautionary perspective.  Current Opinion in Microbiology , 86 , 102631. 839 
+
+https://doi.org/10.1016/j.mib.2025.102631 840 
+
+Zhu, X., Burger, M., Doane, T. A., & Horwath, W. R. (2013). Ammonia oxidation pathways 841 
+
+and nitrifier denitrification are significant sources of N 2 O and NO under low 842 
+
+oxygen availability.  Proceedings of the National Academy of Sciences , 110 (16), 843 
+
+6328 –6333. https://doi.org/10.1073/pnas.1219993110 844 
+
+Zhu -Barker, X., Cavazos, A. R., Ostrom, N. E., Horwath, W. R., & Glass, J. B. (2015). The 845 
+
+importance of abiotic reactions for nitrous oxide production.  Biogeochemistry ,846 
+
+126 (3), 251 –267. https://doi.org/10.1007/s10533 -015 -0166 -4847 
+
+Żygadłowska, O. M., Venetz, J., Klomp, R., Lenstra, W. K., van Helmond, N. A. G. M., 848 
+
+Röckmann, T., Wallenius, A. J., Martins, P. D., Veraart, A. J., Jetten, M. S. M., & 849 
+
+Slomp, C. P. (2023).  Pathways of methane removal in the sediment and water 850 
+
+column of a seasonally anoxic eutrophic marine basin.  Frontiers in Marine 851 
+
+Science , 10 , 1085728 –1085728. https://doi.org/10.3389/fmars.2023.1085728 852 
+
+853 
+
+854 
+
+> (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. The copyright holder for this preprint this version posted June 15, 2026. ;https://doi.org/10.64898/2026.01.07.698157 doi: bioRxiv preprint
+
+42 
+
+Data Availability Statement 855 
+
+The  metagenome and metatranscriptome  data that support the findings of this study are openly 856 
+
+available in  NCBI under BioProject number  PRJNA1321550 . The data that supports the 857 
+
+findings of this study are available in th is article including  its  supplementary material. 858 
+
+859
