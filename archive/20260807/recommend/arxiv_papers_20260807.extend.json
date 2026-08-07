@@ -1,11 +1,11 @@
 {
   "mode": "extend",
-  "generated_at": "2026-08-07T01:21:07.081249+00:00",
+  "generated_at": "2026-08-07T19:33:00.853182+00:00",
   "stats": {
     "mode": "extend",
     "tag_count": 1,
     "deep_divecandidates": 0,
-    "deep_cap": 11,
+    "deep_cap": null,
     "deep_selected": 0,
     "quick_candidates": 0,
     "quick_skim_target": 16,
