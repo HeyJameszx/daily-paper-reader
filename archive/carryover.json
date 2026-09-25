@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-24T22:02:47.406517+00:00",
-  "updated_date": "20260924",
+  "generated_at": "2026-09-25T22:16:19.933033+00:00",
+  "updated_date": "20260925",
   "carryover_days": 5,
   "tag_states": {
     "cwa": {
-      "updated_date": "20260924",
+      "updated_date": "20260925",
       "carryover_days": 5,
       "items": []
     }
